@@ -17,6 +17,10 @@ body{
   background-color: #f0f4fb;
 }
 
+.btn-secondary{
+  background-color: #6B93D6;
+}
+
 /* Navbar */
 
 nav {
@@ -156,6 +160,10 @@ nav {
 }
 .owl-next:hover,.owl-prev:hover{
   background-color: #9FC164 !important;
+}
+.acheivements{
+  margin: 5%;
+  color: #12a712;
 }
 
 /* Media */
