@@ -146,6 +146,12 @@ nav {
   display: flex;
   align-items: center;
 }
+.owl-next,.owl-prev{
+  background-color: #6B93D6 !important;
+}
+.owl-next:hover,.owl-prev:hover{
+  background-color: #9FC164 !important;
+}
 
 /* Media */
 
