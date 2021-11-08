@@ -85,18 +85,23 @@ nav {
     url("../content/slide/slide-2.jpg");
 }
 .carousel-item {
-    color: white;
+  color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 91vh;
 }
+.carousel-img{
+  height: 100%;
+  width: 100%;
+}
 .carousel-container{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100%;
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* About */
