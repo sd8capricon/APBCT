@@ -139,13 +139,7 @@ nav {
   transform: scale(1.2);
 }
 .owl{
-  overflow: visible;
   display: none;
-  transition: all 0.4s;
-}
-.owl img:hover{
-  overflow: visible;
-  transform: scale(1.2);
 }
 .owl-carousel .owl-stage{
   overflow: visible;
