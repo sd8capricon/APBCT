@@ -20,6 +20,9 @@ body{
 .btn-secondary{
   background-color: #6B93D6;
 }
+.btn-secondary:hover{
+  background-color: #9FC164;
+}
 
 /* Navbar */
 
@@ -102,7 +105,7 @@ nav {
 }
 .carousel-container{
   height: 100%;
-  padding: 10%;
+  padding: 13%;
   display: flex;
   align-items: center;
   justify-content: center;
