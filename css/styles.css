@@ -1,6 +1,8 @@
 :root {
   --nav-height: 9vh;
   --nav-overlay-width: 40%;
+  --primary-color: #9FC164;
+  --secondary-color: #6B93D6;
 }
 
 * {
@@ -10,7 +12,7 @@
 }
 
 p{
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
 }
 
 body{
@@ -18,10 +20,10 @@ body{
 }
 
 .btn-secondary{
-  background-color: #6B93D6;
+  background-color: var(--secondary-color);
 }
 .btn-secondary:hover{
-  background-color: #9FC164;
+  background-color: var(--primary-color);
 }
 
 /* Navbar */
@@ -159,14 +161,18 @@ nav {
   align-items: center;
 }
 .owl-next,.owl-prev{
-  background-color: #6B93D6 !important;
+  background-color: var(--secondary-color) !important;
 }
 .owl-next:hover,.owl-prev:hover{
-  background-color: #9FC164 !important;
+  background-color: var(--primary-color) !important;
 }
 .acheivements{
   margin: 5%;
   color: #12a712;
+}
+.acheivements h2{
+  font-size: 3.2rem;
+  font-weight: 700;
 }
 
 /* Media */
