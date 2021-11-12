@@ -240,7 +240,7 @@ hr {
 }
 .title-2021{
   padding-top: 500px;
-  text weight: bolder;
+  font-weight: bolder;
   text-align: center;
   color: white;
   background-color: #aecc81;
