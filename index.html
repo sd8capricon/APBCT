@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APB Charitable Trust</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APB Charitable Trust</title>
+
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,20 +31,58 @@
 </head>
 
 <body>
-    <nav>
-        <div class="brand">
-            <img src="./content/logo.png" alt="" srcset="">
+  <nav>
+    <div class="brand">
+      <a href="index.html">
+        <img src="./content/logo.png" alt="" srcset="">
+      </a>
+    </div>
+    <div class="hamburger">
+      <i class="fas fa-bars fa-nav fa-active"></i>
+      <i class="fas fa-times fa-nav"></i>
+    </div>
+    <div class="menu" id="nav-menu">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT US</a>
+      <a href="work-section.html">OUR INITIATIVES</a>
+      <a href="#contact">CONTACT US</a>
+    </div>
+  </nav>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="content" id="about">
+    <h1>About Us</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 about-text-wrapper">
+          <p class="about-text">Anti Plastic Brigade charitable trust is a registered Non Govermental
+            Organzation from the city of Thane working mainly for Solid
+            Waste Management along with other Green Activities since 2017.</p><br>
+          <p class="about-text">Waste management reduces the effect of waste on the environment, health, and
+            so on. It can also
+            help reuse or recycle resources, such as; paper, cans, glass, and so on. There is various type
+            of waste management that include the disposal of solid, liquid, gaseous, or hazardous
+            substances.</p><br>
+          <p class="about-text">Our organisation strives to create awareness among people about the harmful
+            effects caused by
+            the incorrect disposal of plastic and other waste on our environment.
+            <span class="about-motto">Refuse, Reduce, Reuse</span> and <span class="about-motto">Recycle</span> is our motto
+          </p>
         </div>
-        <div class="hamburger">
-            <i class="fas fa-bars fa-nav fa-active"></i>
-            <i class="fas fa-times fa-nav"></i>
-        </div>
-        <div class="menu" id="nav-menu">
-            <a href="#home">Home</a>
-            <a href="#about">About Us</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact Us</a>
-        </div>
+        <div class="col-lg-7">
+          <img id="about-img1" src="./content/For Carousel/about.jpeg" alt="">
+          <img class="about-img2" src="./content//For Carousel/img1.jpeg" alt="">
+          <img class="about-img2" src="./content/For Carousel/img2.jpeg" alt="">
+
     </nav>
 
     <section class="content" id="home">
@@ -159,20 +198,47 @@
                     <p>Collaborations with socities</p>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="content" id="work">
-        <h2>Work</h2>
-    </section>
-    <section class="content" id="contact">
-        <h2>Contact Us</h2>
-    </section>
 
-    <!-- SmoothScroll -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- WORK SECTION -->
+  <section class="content work-sec" id="work">
+    <div class="row hello">
+      <h2 class="work-heading">OUR INITIATIVES</h2>
+      <div class="col-lg-6 work-sec-div">
+
+
+        <p class="work-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. </p>
+        <a href="work-section.html" class="button--link">
+          KNOW MORE
+          <span class="fa fa-long-arrow-alt-right padding-left-1" aria-hidden="true">
+          </span>
+        </a>
+      </div>
+      <div class="col-lg-6 col-md-6 work-sec-div ">
+        <img class="work-sec-img" src="content/work/worksec.png" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="content" id="contact">
+    <h2>Contact Us</h2>
+  </section>
+
+
+
+    <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- jQuery -->
+    <!-- SmoothScroll -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
