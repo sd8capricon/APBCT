@@ -3,13 +3,7 @@
   --nav-overlay-width: 40%;
 }
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #aecc81;
-    border-width: 5;
-    width: 5%;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -244,6 +238,28 @@ nav {
 
 /* WORK NEW PAGE */
 
+.hello-1{
+  padding-right: 0;
+  margin-right: 0;
+}
+hr{
+  all:unset;
+}
+hr {
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #6c94d4
+;
+  border-width: 5px;
+  width: 5%;
+  height: 15px;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0
+}
+
 
 .title-div-2021{
   padding-top: 40px;
@@ -268,12 +284,32 @@ nav {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 
+}
+
+.new-web-page-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 
 .work-info-new{
   width: 70%;
   margin: 30px auto 15px 126px;
   text-align: left;
-  color: #343434;
+  color: #545454;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  font-size: 17px;
+  margin-left: 12px;
+}
