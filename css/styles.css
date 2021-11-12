@@ -151,7 +151,28 @@ nav {
   box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.5);
   transition: all 0.4s;
 }
-
+.owl{
+  display: none;
+}
+.owl-carousel .owl-stage{
+  overflow: visible;
+  display: flex;
+  align-items: center;
+}
+.owl-next, .owl-prev{
+  background-color: var(--secondary-color) !important;
+}
+.owl-next:hover,.owl-prev:hover{
+  background-color: var(--primary-color) !important;
+}
+.acheivements{
+  margin: 5%;
+  color: #12a712;
+}
+.acheivements h2{
+  font-size: 3.2rem;
+  font-weight: 700;
+}
 
 
 /* WORK  HOME PAGE*/
@@ -286,31 +307,6 @@ hr {
   margin-left: 12px;
 }
 
-.about-imgs:hover{
-  transform: scale(1.2);
-}
-.owl{
-  display: none;
-}
-.owl-carousel .owl-stage{
-  overflow: visible;
-  display: flex;
-  align-items: center;
-}
-.owl-next,.owl-prev{
-  background-color: var(--secondary-color) !important;
-}
-.owl-next:hover,.owl-prev:hover{
-  background-color: var(--primary-color) !important;
-}
-.acheivements{
-  margin: 5%;
-  color: #12a712;
-}
-.acheivements h2{
-  font-size: 3.2rem;
-  font-weight: 700;
-}
 
 /* Media */
 
