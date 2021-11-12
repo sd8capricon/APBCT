@@ -186,8 +186,8 @@ nav {
 }
 
 .work-sec{
-  padding-top: 70px;;
-  padding-bottom: 110px;
+  padding-top: 80px;;
+  padding-bottom: 150px;
   background-color: #aecc81;
   display: flex;
   flex-direction: column;
@@ -377,5 +377,34 @@ hr {
   .about-img2{
     height: 180px;
     width: 240px;
+  }
+
+  .work-info{
+    margin:auto;
+    padding-top: 20px;
+  }
+
+  .button--link{
+    padding-top: 40px;
+  }
+  .work-sec-div{
+    padding-top: 30px;
+  }
+  .work-info{
+    padding-bottom: 20px;
+  }
+
+  .work-heading{
+    padding-top: 10px;
+  }
+  .work-sec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .work-sec-img{
+    padding-top: 20px;
+    height: 210px;
+    width: 324px;
   }
 }
