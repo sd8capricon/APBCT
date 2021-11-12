@@ -177,6 +177,14 @@ nav {
 
 /* WORK  HOME PAGE*/
 
+.text-box{
+  display: inline-block;
+}
+
+.text-inner-box{
+  text-align: center;
+}
+
 .work-sec{
   padding-top: 70px;;
   padding-bottom: 110px;
@@ -222,7 +230,7 @@ nav {
   color: #233f96;
   font-size: 11px;
   font-weight: 700;
-  margin: 15px auto 30px 126px;
+  text-align: left;
 }
 
 .hello{
@@ -251,6 +259,14 @@ hr {
   padding-left: 0;
   padding-right: 0;
   margin-right: 0
+}
+
+.image-box{
+  display: inline-block;
+}
+
+.image-inner-box{
+  text-align: center;
 }
 
 
@@ -294,7 +310,7 @@ hr {
 }
 
 .work-info-new{
-  width: 70%;
+  width: 65%;
   margin: 30px auto 15px 126px;
   text-align: left;
   color: #545454;
@@ -363,4 +379,3 @@ hr {
     width: 240px;
   }
 }
-
