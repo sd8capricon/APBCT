@@ -179,3 +179,28 @@ nav {
 .row img:hover{
   transform: scale(1.2);
 }
+
+
+/* WORK */
+
+.work-sec{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #aecc81;
+
+}
+.work-heading{
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 50px;
+  font-weight:  bold;
+}
+
+.work-info{
+  width: 70%;
+  margin: 30px auto 30px 126px;
+  text-align: left;
+  color: #646464;
+}
