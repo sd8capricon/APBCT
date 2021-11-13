@@ -97,3 +97,60 @@ hr {
   /* padding-top: 80px; */
   font-size: 17px;
 }
+
+
+/* IMAGE CAROUSEL */
+
+
+.owl{
+  display: block;
+}
+.owl-carousel .owl-stage{
+  overflow: visible;
+  display: flex;
+  align-items: center;
+}
+.owl-next, .owl-prev{
+  background-color: var(--secondary-color) !important;
+}
+.owl-next:hover,.owl-prev:hover{
+  background-color: var(--primary-color) !important;
+}
+
+
+
+
+
+/* MEDIA */
+
+
+@media only screen and (max-width: 768px){
+  .work-info{
+    margin:auto;
+    padding-top: 20px;
+  }
+
+  .button--link{
+    padding-top: 40px;
+  }
+  .work-sec-div{
+    padding-top: 30px;
+  }
+  .work-info{
+    padding-bottom: 20px;
+  }
+
+  .work-heading{
+    padding-top: 10px;
+  }
+  .work-sec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .work-sec-img{
+    padding-top: 20px;
+    height: 210px;
+    width: 324px;
+  }
+}
