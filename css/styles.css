@@ -198,9 +198,15 @@ nav {
   letter-spacing: 1px;
   font-family: lato,Geneva,Tahoma,sans-serif;
   color: #233f96;
-  font-size: 11px;
+  align-self:flex-start;
+  font-size: 13px;
   font-weight: 700;
   padding-bottom: 20px;
+}
+.work-img{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* WORK NEW PAGE */
@@ -233,8 +239,6 @@ hr {
 .image-inner-box{
   text-align: center;
 }
-
-
 .title-div-2021{
   padding-top: 40px;
   margin-bottom: 0;
@@ -253,7 +257,6 @@ hr {
   font-size: 3.5rem;
   margin-bottom: 0;
 }
-
 .work-sec-new{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -272,7 +275,6 @@ hr {
   align-self: center;
 
 }
-
 .work-info-new{
   width: 65%;
   margin: 30px auto 15px 126px;
