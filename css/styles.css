@@ -355,6 +355,28 @@ hr {
   margin-left: 12px;
 }
 
+/* Footer */
+#rollUp {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+}
+#rollUp.scroll {
+  display: flex;
+}
+#rollUp.btn {
+  background-color: #9FC164;
+  height: 6vh;
+  width: 6vh;
+  justify-content: center;
+  align-items: center;
+}
+.fa-chevron-up{
+  font-size: 15px;
+}
 
 /* Media */
 
