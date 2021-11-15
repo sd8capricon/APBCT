@@ -4,8 +4,6 @@
   --primary-color: #9FC164;
   --secondary-color: #6B93D6;
 }
-
-
 * {
   margin: 0;
   padding: 0;
@@ -50,6 +48,8 @@ a{
 
 .section-title-secondary {
   text-align: center;
+  font-weight: bolder;
+  color: white;
   padding-bottom: 30px;
 }
 .section-title-secondary h1{
@@ -110,30 +110,25 @@ nav {
   align-items: center;
   box-shadow: 0px 8px 20px 1px rgba(0, 0, 0, 0.5);
 }
-
 .brand img {
   position: relative;
   left: 0;
   height: 8vh;
   width: 11.5vw;
 }
-
 .menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .menu a {
   text-decoration: none;
   color: inherit;
   margin: 10px;
 }
-
 .menu a:hover {
   color: #5cb881;
 }
-
 .hamburger {
   display: none;
 }
@@ -191,6 +186,9 @@ nav {
 #about h1{
   margin-bottom: 50px
 }
+#about img{
+  margin: 10px;
+}
 .about-text-wrapper{
   display: flex;
   flex-direction: column;
@@ -205,18 +203,17 @@ nav {
   font-weight: 600;
   color: #12a712;
 }
-.about-img1{
-  width: 250px;
-  height: 333px;
+.about-img-wrapper-vertical{
+  width: 15rem;
 }
-.about-img2{
-  width: 372px;
-  height: 279px;
+.about-img-wrapper-horizontal{
+  width: 20rem;
 }
-.about-imgs{
-  margin: 10px;
-  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.5);
-  transition: all 0.4s;
+.about-img-wrapper-vertical, .about-img-wrapper-horizontal{
+  transition: all 0.3s;
+}
+.about-img-wrapper-vertical:hover, .about-img-wrapper-horizontal:hover{
+  transform: scale(1.6);
 }
 .owl{
   display: none;
@@ -252,11 +249,6 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
 
-}
-.work-heading{
-  font-family: "Open Sans", sans-serif;
-  color: white;
-  font-weight:  bold;
 }
 .work-info{
   color: #545454;
@@ -472,9 +464,4 @@ hr {
   .owl{
     display: block;
   }
-  .about-img2{
-    height: 180px;
-    width: 240px;
-  }
-
 }
