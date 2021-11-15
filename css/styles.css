@@ -14,6 +14,73 @@
 a{
   text-decoration: none;
 }
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h1{
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.section-title h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: rgb(165, 165, 165);
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #5cb874;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title-secondary {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title-secondary h1{
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.section-title-secondary h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: rgb(54, 54, 54);
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title-secondary h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--secondary-color);
+  bottom: 0;
+  left: calc(50% - 20px);
+}
 p{
   font-family: "Rubik", sans-serif;
 }
@@ -170,8 +237,7 @@ nav {
   color: #12a712;
 }
 .acheivements h2{
-  font-size: 3.2rem;
-  font-weight: 700;
+  font-size: 3rem;
 }
 
 /* WORK  HOME PAGE*/
