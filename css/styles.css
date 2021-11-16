@@ -204,16 +204,16 @@ nav {
   color: #12a712;
 }
 .about-img-wrapper-vertical{
-  width: 15rem;
+  width: 35%;
 }
 .about-img-wrapper-horizontal{
-  width: 20rem;
+  width: 50%;
 }
 .about-img-wrapper-vertical, .about-img-wrapper-horizontal{
-  transition: all 0.3s;
+  transition: all 0.35s;
 }
 .about-img-wrapper-vertical:hover, .about-img-wrapper-horizontal:hover{
-  transform: scale(1.6);
+  transform: scale(1.5);
 }
 .owl{
   display: none;
@@ -229,11 +229,11 @@ nav {
 .owl-next:hover,.owl-prev:hover{
   background-color: var(--primary-color) !important;
 }
-.acheivements{
+.numerical-data{
   margin: 5%;
   color: #12a712;
 }
-.acheivements h2{
+.numerical-data h2{
   font-size: 3rem;
   font-weight: bold;
 }
