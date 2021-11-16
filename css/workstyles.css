@@ -1,5 +1,17 @@
 /* WORK NEW PAGE */
-
+#work-new{
+  height: 50vh;
+  padding: 10% inherit;
+  text-align: center;
+  background-color: #f0f4fb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.title-pad{
+  padding-right: 0;
+  margin-right: 0;
+}
 .title-div-2021{
   padding-top: 40px;
   margin-bottom: 0;
