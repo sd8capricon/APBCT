@@ -262,86 +262,8 @@ nav {
   box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* WORK NEW PAGE */
 
-.hello-1{
-  padding-right: 0;
-  margin-right: 0;
-}
-/* hr{
-  all:unset;
-}
-hr {
-
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #6c94d4;
-  border-width: 5px;
-  width: 5%;
-  height: 15px;
-  margin-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  margin-right: 0
-} */
-
-.image-box{
-  display: inline-block;
-}
-
-.image-inner-box{
-  text-align: center;
-}
-.title-div-2021{
-  padding-top: 40px;
-  margin-bottom: 0;
-  background-color: #f0f4fb;
-}
-.title-2021{
-  padding-top: 500px;
-  font-weight: bolder;
-  text-align: center;
-  color: white;
-  background-color: #aecc81;
-  font-family: "Open Sans", sans-serif;
-  padding: 50px ;
-  padding-bottom: 30px;
-
-  font-size: 3.5rem;
-  margin-bottom: 0;
-}
-.work-sec-new{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.new-web-page-img{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-
-}
-.work-info-new{
-  width: 65%;
-  margin: 30px auto 15px 126px;
-  text-align: left;
-  color: #545454;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 80px;
-  font-size: 17px;
-  margin-left: 12px;
-}
- /* teams  */
+ /* Team  */
 .team .member {
   text-align: center;
   margin-bottom: 20px;
