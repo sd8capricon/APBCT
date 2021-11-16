@@ -227,8 +227,17 @@ nav {
 .owl-next:hover,.owl-prev:hover{
   background-color: var(--primary-color) !important;
 }
+
+/* Achievements */
+#acheivements{
+  text-align: center;
+  padding: 2%;
+  /* background-color: #AECC81; */
+}
 .numerical-data{
   margin: 3%;
+  /* color: white; */
+  /* color: var(--secondary-color); */
   color: #12a712;
 }
 .numerical-data h2{
