@@ -235,6 +235,12 @@ nav {
   font-size: 3rem;
   font-weight: bold;
 }
+.paper-horizontal{
+  width: 75%;
+}
+.paper-vertical{
+  width: 40%;
+}
 
 /* WORK  HOME PAGE*/
 
