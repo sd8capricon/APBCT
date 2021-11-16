@@ -1,6 +1,6 @@
 /* WORK NEW PAGE */
 #work-new{
-  height: 50vh;
+  height: 57vh;
   padding: 10% inherit;
   text-align: center;
   background-color: #f0f4fb;
@@ -13,20 +13,18 @@
   margin-right: 0;
 }
 .title-div-2021{
-  padding-top: 40px;
+  padding-top: 3vh;
   margin-bottom: 0;
   background-color: #f0f4fb;
 }
 .title-2021{
-  padding-top: 500px;
   font-weight: bolder;
   text-align: center;
   color: white;
   background-color: #aecc81;
   font-family: "Open Sans", sans-serif;
   padding: 50px ;
-  padding-bottom: 30px;
-
+  padding-bottom: 2.2vh;
   font-size: 3.5rem;
   margin-bottom: 0;
 }
