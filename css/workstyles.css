@@ -45,7 +45,12 @@
 .w-100{
   width: 70%;
 }
-
+.carousel-control-prev-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/467/467274.png);
+}
+.carousel-control-next-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/467/467282.png);
+}
 /* .item{
   padding-left: 60px;
   padding-right: 60px;
