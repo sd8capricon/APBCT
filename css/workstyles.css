@@ -28,3 +28,35 @@
   font-size: 3.5rem;
   margin-bottom: 0;
 }
+
+/* carousel */
+/* .carousel-slide{
+  border-radius: 10px;
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.5);
+} */
+
+.carousel-inner{
+  height: 300px;
+  border-radius: 10px
+}
+.d-block{
+  border-radius: 10px;
+}
+.w-100{
+  width: 70%;
+}
+
+/* .item{
+  padding-left: 60px;
+  padding-right: 60px;
+} */
+/* .image{
+  width: 100%;
+} */
+/* .carousel-item .image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit:contain;
+    min-height: 300px;
+} */
