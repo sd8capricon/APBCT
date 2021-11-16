@@ -133,6 +133,10 @@ nav {
   display: none;
 }
 
+.content{
+  padding-top: 50px;
+}
+
 /* Home */
 #home {
   padding-top: 9vh;
@@ -236,12 +240,8 @@ nav {
 
 #work{
   height: 91vh;
-  padding: 10% inherit;
   text-align: center;
   background-color: #aecc81;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 
 }
 .work-info{

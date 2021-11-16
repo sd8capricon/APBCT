@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="./vendors/Owl-Carousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./vendors/Owl-Carousel/assets/owl.theme.default.min.css">
 
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
     <!-- Local Stylesheet -->
     <link rel="stylesheet" href="./css/styles.css">
 
@@ -145,7 +148,6 @@
                 </div>
             </div>
             <!-- Acheivements -->
-            <!-- Still needs styling -->
             <div class="row numerical-data">
                 <div class="col-md-4 col-sm-4">
                     <h2><span class="counter">30</span>+ kgs</h2>
@@ -176,6 +178,23 @@
                 </div>
                 <div class="col-md-6 d-flex align-items-center about-text">
                     <p>Anti Plastic Brigade Charitable Trsut and its Green Brigadiers were appreciated for their tireless efforts in SWM & convincing people about importance of RECYCLING. In June 2020 they were awarded with certificate of appreciation as TMC secured 1st position in 'MAJHI VASUNDHARA ABHIYAN 2020-21' in MAHARASHTRA</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center about-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi aliquam eius sint adipisci dolor, consequuntur, quam excepturi qui porro magnam cupiditate perferendis commodi maxime ut assumenda, sapiente minus corporis magni.
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div data-history="1" class="swiper-slide"><img style="width: 80%;" src="./content/For acheivements/MT1.jpeg" alt=""></div>
+                          <div data-history="Slide 2" class="swiper-slide"><img style="width: 80%;" src="./content/For acheivements/MT2.jpeg" alt=""></div>
+                          <div data-history="3" class="swiper-slide"><img style="width: 40%;" src="./content/For acheivements/WhatsApp Image 2021-10-24 at 5.40.38 PM.jpeg" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -281,6 +300,8 @@
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
         </script>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- SmoothScroll -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <!-- Bootstrap -->
@@ -299,6 +320,7 @@
     <script src="./js/nav.js"></script>
     <script src="./js/visible-onscroll.js"></script>
     <script src="./js/owl-carousel.js"></script>
+    <script src="./js/swiper.js"></script>
     <script>
         $('.counter').counterUp({
             delay: 16,
