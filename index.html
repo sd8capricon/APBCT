@@ -22,6 +22,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="./css/all.min.css">
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="./vendors/Owl-Carousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./vendors/Owl-Carousel/assets/owl.theme.default.min.css">
@@ -66,7 +69,7 @@
                 <div class="carousel-item active" id="ci-1">
                     <div class="carousel-container">
                         <div class="row align-items-center">
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-down" data-aos-duration="500">
                                 <h1>Anti Plastic Brigade</h1><br>
                                 <h4>Charitable Trust</h4>
                                 <br>
@@ -75,7 +78,7 @@
                                     endeavours since 2017</p>
                                 <a href="#about" class="btn btn-secondary">Get Started</a>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="flip-up" data-aos-duration="800">
                                 <img class="carousel-img" src="./content/slide/Blue/Throw away 2.png" alt="" srcset="">
                             </div>
                         </div>
@@ -320,6 +323,11 @@
     <script src="./vendors/Counter-Up/jquery.counterup.min.js"></script>
     <!-- Owl Carousel -->
     <script src="./vendors/Owl-Carousel/owl.carousel.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- Local -->
     <script src="./js/nav.js"></script>
     <script src="./js/visible-onscroll.js"></script>
