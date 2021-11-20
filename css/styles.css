@@ -253,7 +253,7 @@ nav {
 
 /* What-we-do */
 #services {
-  height: 91vh;
+  height: auto;
   padding: 40px 0;
 }
 #services .box {
@@ -282,7 +282,7 @@ nav {
 #services .box .icon i:before {
   background: #0c2e8a;
   /* background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%); */
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-color) 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
