@@ -200,17 +200,14 @@ nav {
   font-weight: 600;
   color: #12a712;
 }
-.about-img-wrapper-vertical{
-  width: 35%;
-}
-.about-img-wrapper-horizontal{
-  width: 50%;
-}
-.about-img-wrapper-vertical, .about-img-wrapper-horizontal{
+.abt-img-wrapper{
   transition: all 0.35s;
 }
-.about-img-wrapper-vertical:hover, .about-img-wrapper-horizontal:hover{
+.abt-img-wrapper:hover{
   transform: scale(1.5);
+}
+.about-img-wrapper-vertical{
+  max-width: 35%;
 }
 .owl-carousel .owl-stage{
   overflow: visible;
