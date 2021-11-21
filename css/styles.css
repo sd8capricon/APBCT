@@ -213,9 +213,6 @@ nav {
 .about-img-wrapper-vertical:hover, .about-img-wrapper-horizontal:hover{
   transform: scale(1.5);
 }
-.owl{
-  display: none;
-}
 .owl-carousel .owl-stage{
   overflow: visible;
   display: flex;
@@ -467,26 +464,25 @@ hr {
 }
 
 /* Footer */
-#rollUp {
-  display: none;
+#rollUp{
+  height: 0;
+  opacity: 0;
+  /* display: none; */
   position: fixed;
   z-index: 10;
   bottom: 0;
   right: 0;
   margin: 15px;
+  transition: all 0.35s ease-in;
 }
 #rollUp.scroll {
-  display: flex;
-}
-#rollUp.btn {
-  background-color: #9FC164;
+  opacity: 1;
+  background-color: var(--secondary-color);
   height: 6vh;
   width: 6vh;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-.fa-chevron-up{
-  font-size: 15px;
 }
 
 /* Media */
@@ -530,13 +526,5 @@ hr {
   .fa-active {
     display: block;
     color: black;
-  }
-
-  /* About Us */
-  .about-imgs{
-    display: none;
-  }
-  .owl{
-    display: block;
   }
 }
