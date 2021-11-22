@@ -15,7 +15,7 @@ a{
 
 .home-title{
   font-weight: bold;
-  font-size: 63px;
+  font-size: 56px;
   line-height: 77px;
   margin-bottom: 30px;
   color: var(--secondary-color);
@@ -105,7 +105,6 @@ body{
 
 .btn-secondary{
   background-color: var(--secondary-color);
-  width: 20%;
 }
 .btn-secondary:hover{
   background-color: var(--primary-color);
@@ -200,9 +199,6 @@ nav {
 #about{
   padding: 2%;
   text-align: center;
-}
-#about h1{
-  margin-bottom: 50px
 }
 #about img{
   margin: 10px;
