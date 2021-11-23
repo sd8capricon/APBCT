@@ -19,7 +19,7 @@ section{
 
 .home-title{
   font-weight: bold;
-  font-size: 56px;
+  font-size: 55px;
   line-height: 77px;
   margin-bottom: 30px;
   color: var(--secondary-color);
@@ -67,7 +67,6 @@ section{
 .section-title-secondary {
   text-align: center;
   font-weight: bolder;
-  color: white;
   padding-bottom: 30px;
 }
 .section-title-secondary h1{
@@ -233,6 +232,7 @@ nav {
 }
 
 /* Achievements */
+
 #acheivements{
   text-align: center;
   padding: 40px 2%;
@@ -241,8 +241,8 @@ nav {
 .numerical-data{
   margin: 0 3%;
   /* color: white; */
+  /* color: black; */
   color: var(--secondary-color);
-  /* color: #12a712; */
 }
 .numerical-data h2{
   font-size: 3rem;
