@@ -530,6 +530,10 @@ nav {
     font-size: 40px;
     line-height: 50px;
   }
+
+  .numerical-data h2{
+    font-size: 1.8rem;
+  }
 }
 
 /* Curves */
