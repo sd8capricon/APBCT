@@ -1,8 +1,16 @@
 /* WORK NEW PAGE */
 
-#work-new{
-  height: 57vh;
+#work-new-2021{
   padding: 10% inherit;
+  text-align: center;
+  background-color: #f0f4fb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#work-new{
+  padding: 10% inherit;
+  padding-top: 10px;
   text-align: center;
   background-color: #f0f4fb;
   display: flex;
@@ -13,7 +21,7 @@
   padding-right: 0;
   margin-right: 0;
 }
-.title-div-2021{
+.title-div{
   padding-top: 3vh;
   margin-bottom: 0;
   background-color: #f0f4fb;
@@ -29,23 +37,36 @@
   font-size: 3.5rem;
   margin-bottom: 0;
 }
+.title-year{
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  background-color: #aecc81;
+  font-family: "Open Sans", sans-serif;
+  padding: 50px ;
+  padding-top: 2.2vh;
+  padding-bottom: 2.2vh;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+}
+.workpage-info{
+  color: #545454;
+  text-align: left;
+  font-size: 16px;
+}
 
-/* carousel */
-/* .carousel-slide{
-  border-radius: 10px;
-  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.5);
-} */
-
+/* Carousel */
 .carousel-inner{
-  height: 300px;
-  border-radius: 10px
+  height: 350px;
+  border-radius: 10px;
+}
+.carousel-work{
+  text-align: center;
 }
 .d-block{
   border-radius: 10px;
 }
-.w-100{
-  width: 70%;
-}
+
 .carousel-control-prev-icon {
     background-image: url(https://cdn-icons-png.flaticon.com/512/467/467274.png);
 }
