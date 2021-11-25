@@ -1,4 +1,5 @@
 /* WORK NEW PAGE */
+
 #work-new{
   height: 57vh;
   padding: 10% inherit;
@@ -51,17 +52,3 @@
 .carousel-control-next-icon {
     background-image: url(https://cdn-icons-png.flaticon.com/512/467/467282.png);
 }
-/* .item{
-  padding-left: 60px;
-  padding-right: 60px;
-} */
-/* .image{
-  width: 100%;
-} */
-/* .carousel-item .image{
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit:contain;
-    min-height: 300px;
-} */
