@@ -462,13 +462,10 @@ nav {
 }
 
 /* Contact */
+#contact{
+  background-color: white;
+}
 
-#contact .info-wrapper{
-  width: 100%;
-}
-#contact .info-wrapper *{
-  margin: 0;
-}
 .social-links a{
   margin: 10px;
 }
