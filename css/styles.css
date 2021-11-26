@@ -152,46 +152,27 @@ nav {
 /* Home */
 #home {
   padding-top: 9vh;
+  height: 100vh;
+  width: 100%;
+  color: white;
 }
-#ci-1 {
+#home .home-container {
+  height: 100%;
+  width: 100%;
+  padding: 0 10%;
   background-image: linear-gradient(
       rgb(52, 101, 70, 0.7),
       rgb(52, 101, 70, 0.7)
     ),
     url("../content/slide/slide-1.jpg");
-}
-#ci-2 {
-  background-image: linear-gradient(
-      rgb(52, 101, 70, 0.7),
-      rgb(52, 101, 70, 0.7)
-    ),
-    url("../content/slide/slide-4.jpg");
-}
-#ci-3 {
-  background-image: linear-gradient(
-      rgb(52, 101, 70, 0.7),
-      rgb(52, 101, 70, 0.7)
-    ),
-    url("../content/slide/slide-2.jpg");
-}
-.carousel-item {
-  color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 91vh;
 }
 .carousel-img{
   height: 100%;
   width: 100%;
-}
-.carousel-container{
-  height: 100%;
-  padding: 0 13%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* About */
