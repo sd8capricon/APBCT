@@ -469,8 +469,11 @@ nav {
 #contact .info-wrapper *{
   margin: 0;
 }
-#contact .social-links a{
+.social-links a{
   margin: 10px;
+}
+.social-links a i{
+  color: var(--secondary-color);
 }
 
 /* Footer */
