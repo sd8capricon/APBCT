@@ -397,7 +397,7 @@ nav {
  /* Teams  */
  #team{
    padding-top: 40px;
-   /* height: 91vh; */
+   padding-bottom: 40px;
  }
 .team .member {
   text-align: center;
