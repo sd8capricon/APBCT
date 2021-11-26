@@ -416,7 +416,7 @@ nav {
  /* Teams  */
  #team{
    padding-top: 40px;
-   height: 91vh;
+   /* height: 91vh; */
  }
 .team .member {
   text-align: center;
@@ -459,6 +459,18 @@ nav {
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+/* Contact */
+
+#contact .info-wrapper{
+  width: 100%;
+}
+#contact .info-wrapper *{
+  margin: 0;
+}
+#contact .social-links a{
+  margin: 10px;
 }
 
 /* Footer */
