@@ -1,5 +1,31 @@
 /* WORK NEW PAGE */
 
+img{
+  width:456px;
+  height: 280px;
+  margin: auto;
+}
+h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: rgb(54, 54, 54);
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--secondary-color);
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
 #work-odd{
   padding: 10% inherit;
   padding-top: 10px;
@@ -22,12 +48,16 @@
   padding-right: 0;
   margin-right: 0;
 }
-.title-div{
+.title-2021{
   padding-top: 3vh;
   margin-bottom: 0;
   background-color: #f0f4fb;
 }
-.title-odd{
+.title-div{
+  margin-bottom: 0;
+  background-color: #f0f4fb;
+}
+.title-odd-2021{
   font-weight: bolder;
   text-align: center;
   color: #f0f4fb;
@@ -35,19 +65,30 @@
   font-family: "Open Sans", sans-serif;
   padding: 50px ;
   padding-bottom: 2.2vh;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
+  margin-bottom: 0;
+}
+.title-odd{
+  font-weight: bolder;
+  text-align: center;
+  color: #f0f4fb;
+  background-color: #aecc81;
+  font-family: "Open Sans", sans-serif;
+  padding: 14.579px ;
+  padding-bottom: 2.2vh;
+  font-size: 3.3rem;
   margin-bottom: 0;
 }
 .title-even{
   font-weight: bolder;
   text-align: center;
-  color: #aecc81;
+  color: #212529;
   background-color: #f0f4fb;
   font-family: "Open Sans", sans-serif;
   padding: 50px ;
   padding-top: 2.2vh;
   padding-bottom: 2.2vh;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   margin-bottom: 0;
 }
 .workpage-info{
@@ -57,8 +98,11 @@
 }
 
 /* Carousel */
+.carousel-item{
+  height: 10px;
+}
 .carousel-inner{
-  height: 350px;
+  height: 280px;
   border-radius: 10px;
 }
 .carousel-work{
@@ -74,8 +118,27 @@
 .carousel-control-next-icon {
     background-image: url(https://cdn-icons-png.flaticon.com/512/467/467282.png);
 }
-img{
-  width:456px;
-  height: 340px;
-  margin: auto;
+
+
+/* Footer */
+#rollUp {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+}
+#rollUp.scroll {
+  display: flex;
+}
+#rollUp.btn {
+  background-color: #233f96;
+  height: 6vh;
+  width: 6vh;
+  justify-content: center;
+  align-items: center;
+}
+.fa-chevron-up{
+  font-size: 15px;
 }
