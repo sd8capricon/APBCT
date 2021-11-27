@@ -74,3 +74,8 @@
 .carousel-control-next-icon {
     background-image: url(https://cdn-icons-png.flaticon.com/512/467/467282.png);
 }
+img{
+  width:456px;
+  height: 340px;
+  margin: auto;
+}
