@@ -5,26 +5,6 @@ img{
   height: 280px;
   margin: auto;
 }
-h2::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: rgb(54, 54, 54);
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
-h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: var(--secondary-color);
-  bottom: 0;
-  left: calc(50% - 20px);
-}
 
 #work-odd{
   padding: 10% inherit;
@@ -91,12 +71,28 @@ h2::after {
   font-size: 3.3rem;
   margin-bottom: 0;
 }
+.event-title{
+  color: #545454;
+  font-weight: bold;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 0;
+}
 .workpage-info{
   color: #545454;
   text-align: left;
   font-size: 16px;
+  margin-bottom: 4px;
 }
-
+.button--link{
+  letter-spacing: 1px;
+  font-family: lato,Geneva,Tahoma,sans-serif;
+  color: #233f96;
+  align-self:flex-start;
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 0;
+} 
 /* Carousel */
 .carousel-item{
   height: 10px;
@@ -111,14 +107,12 @@ h2::after {
 .d-block{
   border-radius: 10px;
 }
-
 .carousel-control-prev-icon {
     background-image: url(https://cdn-icons-png.flaticon.com/512/467/467274.png);
 }
 .carousel-control-next-icon {
     background-image: url(https://cdn-icons-png.flaticon.com/512/467/467282.png);
 }
-
 
 /* Footer */
 #rollUp {
