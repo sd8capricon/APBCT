@@ -1,6 +1,15 @@
 /* WORK NEW PAGE */
 
-#work-new{
+#work-odd{
+  padding: 10% inherit;
+  padding-top: 10px;
+  text-align: center;
+  background-color:#aecc81;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#work-even{
   padding: 10% inherit;
   padding-top: 10px;
   text-align: center;
@@ -18,10 +27,10 @@
   margin-bottom: 0;
   background-color: #f0f4fb;
 }
-.title-2021{
+.title-odd{
   font-weight: bolder;
   text-align: center;
-  color: white;
+  color: #f0f4fb;
   background-color: #aecc81;
   font-family: "Open Sans", sans-serif;
   padding: 50px ;
@@ -29,11 +38,11 @@
   font-size: 3.5rem;
   margin-bottom: 0;
 }
-.title-year{
+.title-even{
   font-weight: bolder;
   text-align: center;
-  color: white;
-  background-color: #aecc81;
+  color: #aecc81;
+  background-color: #f0f4fb;
   font-family: "Open Sans", sans-serif;
   padding: 50px ;
   padding-top: 2.2vh;
