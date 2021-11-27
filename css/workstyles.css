@@ -71,6 +71,11 @@ img{
   font-size: 3.3rem;
   margin-bottom: 0;
 }
+
+.event-info{
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
 .event-title{
   color: #545454;
   font-weight: bold;
