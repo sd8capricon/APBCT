@@ -152,7 +152,7 @@ img{
   font-size: 15px;
 }
 
-/* Media Query */
+/* Media Query for Desktop Web*/
 @media (min-width: 767px) {
   .carousel-work{
     align-items: center;
@@ -162,9 +162,13 @@ img{
 
 }
 
-@media (max-width:500 ){
+/* Media Query for Mobile Web */
+@media (max-width:500px ){
   img{
-    width: auto;
-    height: auto;
+    width: 300px;
+    height: 183px;
+  }
+  .carousel-inner{
+    height: 183px;
   }
 }
