@@ -5,7 +5,6 @@ img{
   height: 280px;
   margin: auto;
 }
-
 #work-odd{
   padding: 10% inherit;
   padding-top: 10px;
@@ -40,8 +39,8 @@ img{
 .title-odd-2021{
   font-weight: bolder;
   text-align: center;
-  color: #f0f4fb;
-  background-color: #aecc81;
+  color: #212529;
+  background-color: #f0f4fb;
   font-family: "Open Sans", sans-serif;
   padding: 50px ;
   padding-bottom: 2.2vh;
@@ -72,7 +71,8 @@ img{
   margin-bottom: 0;
 }
 
-.event-info{
+/* Event */
+.event-div{
   padding-top: 6vh;
   padding-bottom: 6vh;
 }
@@ -83,7 +83,7 @@ img{
   font-size: 19px;
   margin-bottom: 0;
 }
-.workpage-info{
+.event-info{
   color: #545454;
   text-align: left;
   font-size: 16px;
@@ -100,27 +100,11 @@ img{
 } 
 
 /* Carousel */
-.carousel-item{
-  height: 10px;
-}
 .carousel-inner{
   height: 280px;
-  border-radius: 10px;
-}
-.carousel-work{
-  /* text-align: center; */
 }
 .d-block{
   border-radius: 10px;
-}
-.caption-text{
-  display: block;
-  text-align: center;
-  color: #233f96;
-  margin-bottom: 0;
-}
-.carousel-caption{
-  height: 280px;
 }
 .carousel-control-prev-icon {
     background-image: url(https://cdn-icons-png.flaticon.com/512/467/467274.png);
@@ -142,7 +126,7 @@ img{
   display: flex;
 }
 #rollUp.btn {
-  background-color: #233f96;
+  background-color: #6b93d6;
   height: 6vh;
   width: 6vh;
   justify-content: center;
@@ -170,5 +154,8 @@ img{
   }
   .carousel-inner{
     height: 183px;
+  }
+  .carousel-work{
+    width: 330px;
   }
 }
