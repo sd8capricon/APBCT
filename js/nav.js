@@ -24,5 +24,6 @@ menu.addEventListener("click", toggleMenu);
 
 // Smooth scroll offset
 const scroll = new SmoothScroll('a[href*="#"]', {
-    header: 'nav'
+    header: 'nav',
+    speed:50
 });
