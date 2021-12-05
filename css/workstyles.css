@@ -1,4 +1,5 @@
 /* Our Initiative Page*/
+
 img{
   width:456px;
   height: 280px;
@@ -39,6 +40,27 @@ img{
   background-color: #f0f4fb;
 }
 
+/* .title-div-odd h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #5cb874;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.title-div-even h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #6B93D6;
+  bottom: 0;
+  left: calc(50% - 20px);
+} */
 /* Content Section*/
 .content-common{
   padding: 10% inherit;
