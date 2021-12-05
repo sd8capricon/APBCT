@@ -221,13 +221,15 @@ nav {
 }
 .numerical-data{
   margin: 0 3%;
-  /* color: white; */
-  /* color: black; */
-  color: var(--secondary-color);
 }
 .numerical-data h2{
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: bolder;
+  color: #4f7fd1;
+  /* text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); */
+}
+.numerical-data p{
+  font-size: 18px;
 }
 .paper-horizontal{
   width: 75%;
