@@ -185,7 +185,7 @@ nav {
 }
 .about-text{
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
 }
 .about-motto{
   font-weight: 600;
@@ -214,9 +214,9 @@ nav {
 
 /* Achievements */
 
-#acheivements{
+#achievements{
   text-align: center;
-  padding: 40px 2%;
+  padding: 40px 2% 1px;
   background-color: var(--bg-1);
 }
 .numerical-data{
@@ -230,6 +230,9 @@ nav {
 }
 .numerical-data p{
   font-size: 18px;
+}
+.swiper{
+  width: 90%
 }
 .paper-horizontal{
   width: 75%;
