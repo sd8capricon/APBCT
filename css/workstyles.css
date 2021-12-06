@@ -6,12 +6,19 @@ img{
   margin: auto;
 }
 
-/* Nav-Pills */
-.nav-pills{
-  padding-top: 10vh;
-  
+/* Nav-Tab */
+.nav-year{
+  background-color: #f0f4fb;
 }
-
+.nav{
+  background-color: #f0f4fb;
+}
+.nav-link{
+  color: #233f96
+}
+.nav-link.active{
+  background-color: #f0f4fb;
+}
 /* Year Title */
 .title-pad{
   padding-right: 0;
@@ -19,6 +26,7 @@ img{
 }
 .title-div-first{
   padding-top: 3vh;
+  padding-right: 0;
 }
 .title-div{
   padding-right: 0;
@@ -37,14 +45,15 @@ img{
   font-size: 3.1rem;
   margin-bottom: 0;
 }
-.title-even{
-  color: #f0f4fb;
-  background-color: #aecc81;
-}
-.title-odd{
+.title-primary{
   color: #212529;
   background-color: #f0f4fb;
 }
+.title-secondary{
+  color: #f0f4fb;
+  background-color: #aecc81;
+}
+
 
 /* .title-div-odd h2::after {
   content: "";
@@ -77,12 +86,13 @@ img{
   flex-direction: column;
   justify-content: space-evenly;
 }
-.content-even{
-  background-color:#aecc81;
-}
-.content-odd{
+.content-primary{
   background-color: #f0f4fb;
 }
+.content-secondary{
+  background-color:#aecc81;
+}
+
 
 /* Event */
 .event-div{
