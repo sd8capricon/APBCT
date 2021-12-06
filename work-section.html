@@ -16,8 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="./css/all.min.css">
@@ -48,104 +47,115 @@
       </div>
   </nav> -->
 
-  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-    </li>
-  </ul>
-  <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-      <!-- YEAR 2021 -->
-    <section class="year-2021">
-      <div class="row title-pad">
-        <div class="title-div-first ">
-          <h2 class="title-first title-common title-odd">2021</h2>
-        </div>
-      </div>
-      <section class="content-common content-odd" id="">
-        <div class="container carousel-work">
-          <div id="carousel-2021" class="carousel" data-bs-ride="carousel" data-bs-pause="hover" data-bs-interval="7000">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel-2021" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-2021" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-2021" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-2021-tab" data-bs-toggle="tab" data-bs-target="#nav-2021" type="button" role="tab" aria-controls="nav-2021" aria-selected="true">2021</button>
+      <button class="nav-link" id="nav-2020-tab" data-bs-toggle="tab" data-bs-target="#nav-2020" type="button" role="tab" aria-controls="nav-2020" aria-selected="false">2020</button>
+      <button class="nav-link" id="nav-2019-tab" data-bs-toggle="tab" data-bs-target="#nav-2019" type="button" role="tab" aria-controls="nav-2019" aria-selected="false">2019</button>
+      <button class="nav-link" id="nav-2018-tab" data-bs-toggle="tab" data-bs-target="#nav-2018" type="button" role="tab" aria-controls="nav-2018" aria-selected="false">2018</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-2021" role="tabpanel" aria-labelledby="nav-2021-tab">
+      
+              <!-- YEAR 2021 -->
+              <section class="year-2021">
+                <div class="row title-pad">
+                  <div class="title-div-first ">
+                    <h2 class="title-first title-common title-odd">2021</h2>
+                  </div>
+                </div>
+                <section class="content-common content-odd" id="">
+                  <div class="container carousel-work">
+                    <div id="carousel-2021" class="carousel" data-bs-ride="carousel" data-bs-pause="hover" data-bs-interval="7000">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-2021" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-2021" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-2021" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item  active item">
+                          <img src="./content/initiatives/2021img1.jpg" class="d-block" alt="...">
+                          <div class="carousel-caption d-md-block">
+                            <h5>Awareness Program</h5>
+                          </div>
+                        </div>
+                        <div class="carousel-item  item">
+                          <img src="./content/initiatives/2021img2.jpg" class="d-block" alt="...">
+                          <div class="carousel-caption d-md-block">
+                            <h5>Certificate of Appreciation</h5>
+                          </div>
+                        </div>
+                        <div class="carousel-item item">
+                          <img src="./content/initiatives/2021img3.jpg" class="d-block" alt="...">
+                          <div class="carousel-caption d-md-block">
+                            <h5>Green Study Tour</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2021" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-2021" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+      
+                  <div class="container">
+                    <div class="row event-div">
+                      <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
+                        <p class="event-title"><b>◆ Online Awareness Program</b></p>
+                        <p class="event-info">
+                          <strong>Topic:</strong> Plastic, Thermocol & E-Waste Management<br>
+                          <strong>Date:</strong> 10th January <br>
+                          <strong>Conducted by:</strong> Hetal Gala and Prabha Avinash <br>
+                          <strong>Co-ordinated by:</strong> Sujesh Nair & Srikar Baljekar<br>
+                          <strong>Location:</strong> Garden Enclave, THANE(W)<br>
+                        </p>
+                      </div>
+                      <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
+                        <p class="event-title"><b>◆ APBCT Secured 1st position</b></p>
+                        <p class="event-info">
+                          <strong>Event:</strong> MAJHI VASUNDHARA ABHIYAN 2020-21<br>
+                          <strong>Date:</strong> 15th June <br>
+                          <strong>Description:</strong> APBCT & its Green Brigadiers <br>
+                          were appreciated for their tireless efforts <br>
+                          in Solid Waste Management & convincing <br>
+                          people about importance of RECYCLING <br>
+                      </div>
+                      <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
+                        <p class="event-title"><b>◆ APBCT's Green Study Tour</b></p>
+                        <p class="event-info">
+                          <strong>Event:</strong> Green Study Tour to PAPAYA NURSERY<br>
+                          <strong>Date:</strong> 7th February<br>
+                          <strong>Location:</strong> Papaya Nursery Trimbakeshwar <br>
+                          Road, Near Kuber Petroleum, <br>
+                          Nashik, Maharashtra.<br>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </section>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item  active item">
-                <img src="./content/initiatives/2021img1.jpg" class="d-block" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h5>Awareness Program</h5>
-                </div>
-              </div>
-              <div class="carousel-item  item">
-                <img src="./content/initiatives/" class="d-block" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h5>Certificate of Appreciation</h5>
-                </div>
-              </div>
-              <div class="carousel-item item">
-                <img src="./content/initiatives/" class="d-block" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h5>Green Study Tour</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2021" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-2021" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      </div>
 
-    <div class="container">
-      <div class="row event-div">
-        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-          <p class="event-title"><b>◆ Online Awareness Program</b></p>
-          <p class="event-info">
-            <strong>Topic:</strong> Plastic, Thermocol & E-Waste Management<br>
-            <strong>Date:</strong> 10th January <br>
-            <strong>Conducted by:</strong> Hetal Gala and Prabha Avinash <br>
-            <strong>Co-ordinated by:</strong> Sujesh Nair & Srikar Baljekar<br>
-            <strong>Location:</strong> Garden Enclave, THANE(W)<br> 
-          </p>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-          <p class="event-title"><b>◆ APBCT Secured 1st position</b></p>
-          <p class="event-info"> 
-            <strong>Event:</strong> MAJHI VASUNDHARA ABHIYAN 2020-21<br>
-            <strong>Date:</strong> 15th June <br>
-            <strong>Description:</strong> APBCT & its Green Brigadiers <br>
-             were appreciated for their tireless efforts <br>
-            in Solid Waste Management & convincing <br>
-            people about importance of RECYCLING <br>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-          <p class="event-title"><b>◆ APBCT's Green Study Tour</b></p>
-          <p class="event-info">
-            <strong>Event:</strong> Green Study Tour to PAPAYA NURSERY<br>
-            <strong>Date:</strong> 7th February<br>
-            <strong>Location:</strong> Papaya Nursery Trimbakeshwar <br>
-            Road, Near Kuber Petroleum, <br>
-            Nashik, Maharashtra.<br> 
-          </p>
-        </div>          
-      </div>
     </div>
-      </section>
-    </section>
+    <div class="tab-pane fade" id="nav-2020" role="tabpanel" aria-labelledby="nav-2020-tab">
+      
+      <!-- YEAR 2020 -->
+
     </div>
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+    <div class="tab-pane fade" id="nav-2019" role="tabpanel" aria-labelledby="nav-2019-tab">
+      <!-- YEAR-2019 -->
+
+    </div>
+    <div class="tab-pane fade" id="nav-2018" role="tabpanel" aria-labelledby="nav-2018-tab">
+      <!-- YEAR 2018 -->
+
+    </div>
   </div>
 
     <!-- YEAR 2021
@@ -203,12 +213,12 @@
             <strong>Date:</strong> 10th January <br>
             <strong>Conducted by:</strong> Hetal Gala and Prabha Avinash <br>
             <strong>Co-ordinated by:</strong> Sujesh Nair & Srikar Baljekar<br>
-            <strong>Location:</strong> Garden Enclave, THANE(W)<br> 
+            <strong>Location:</strong> Garden Enclave, THANE(W)<br>
           </p>
         </div>
         <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
           <p class="event-title"><b>◆ APBCT Secured 1st position</b></p>
-          <p class="event-info"> 
+          <p class="event-info">
             <strong>Event:</strong> MAJHI VASUNDHARA ABHIYAN 2020-21<br>
             <strong>Date:</strong> 15th June <br>
             <strong>Description:</strong> APBCT & its Green Brigadiers <br>
@@ -223,22 +233,22 @@
             <strong>Date:</strong> 7th February<br>
             <strong>Location:</strong> Papaya Nursery Trimbakeshwar <br>
             Road, Near Kuber Petroleum, <br>
-            Nashik, Maharashtra.<br> 
+            Nashik, Maharashtra.<br>
           </p>
-        </div>          
+        </div>
       </div>
     </div>
       </section>
     </section> -->
 
     <!-- YEAR 2020 -->
-    <section class="year-2020">
+    <!-- <section class="year-2020">
       <div class="row title-pad">
         <div class="title-div">
           <h2 class="title-common title-even title-rest">2020</h2>
         </div>
       </div>
-    </section>    
+    </section>
     <section class="content-common content-even" id="">
       <div class="container carousel-work">
             <div id="carousel-2020" class="carousel" data-bs-ride="carousel" data-bs-pause="hover" data-bs-interval="7000">
@@ -252,13 +262,13 @@
                   <img src="./content/initiatives/2020img1.jpg" class="d-block" alt="...">
                   <div class="carousel-caption d-md-block">
                     <h5>Awareness Program</h5>
-                  </div>                  
+                  </div>
                 </div>
                 <div class="carousel-item  item">
                   <img src="./content/initiatives/2020img2.jpg" class="d-block" alt="...">
                   <div class="carousel-caption d-md-block">
                     <h5>LOCKDOWN DRIVE</h5>
-                  </div>                 
+                  </div>
                 </div>
                 <div class="carousel-item item">
                   <img src="./content/initiatives/2020img3.jpg class="d-block" alt="...">
@@ -287,12 +297,12 @@
               <strong>Date:</strong> 26th January <br>
               <strong>Conducted by:</strong> APBCT Trustee-Vikas Desai <br>
               <strong>Co-ordinated by:</strong> Namrata Sawant <br>
-              <strong>Location:</strong> Majiwada, THANE(W)<br> 
+              <strong>Location:</strong> Majiwada, THANE(W)<br>
             </p>
           </div>
           <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
             <p class="event-title"><b>◆ LOCKDOWN DRIVE</b></p>
-            <p class="event-info"> 
+            <p class="event-info">
               <strong>Event:</strong> Collection of Dry Waste & Thermocol<br>
               <strong>Date:</strong> 9th May<br>
               <strong>Dry Waste:</strong>  7996.770 Kgs<br>
@@ -306,15 +316,15 @@
               <strong>Topic:</strong>  'CLIMBERS & CREEPERS'<br>
               <strong>Date:</strong> 28th September<br>
               <strong>Location:</strong> 201, Krupa Chambers, Beside <br>
-              Malhar Cinema, Noupada, THANE(W)<br> 
+              Malhar Cinema, Noupada, THANE(W)<br>
             </p>
-          </div>          
+          </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- YEAR 2019 -->
-    <section class="year-2019">
+    <!-- <section class="year-2019">
       <div class="row title-pad">
         <div class="title-div">
           <h2 class="title-common title-odd title-rest">2019</h2>
@@ -373,10 +383,10 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
             <p class="event-title"><b>◆ Management & Pollution Program</b></p>
-            <p class="event-info"> 
+            <p class="event-info">
               <strong>Event:</strong> Awareness Program<br>
               <strong>Date:</strong> 17th December <br>
-              <strong>Location:</strong> Gaykar Chawl, Thane(W)<br>             
+              <strong>Location:</strong> Gaykar Chawl, Thane(W)<br>
               <strong>Conducted by:</strong> Hetal Gala and Anuja Gupte <br>
               <strong>Co-ordinated by:</strong> Chhaya Telange & Bharati Patil <br>
           </div>
@@ -385,19 +395,19 @@
             <p class="event-info">
               <strong>Event:</strong> Green Study Tour to Agarwal Farms<br>
               <strong>Date:</strong> 3rd February <br>
-              <strong>Location:</strong> Karjat<br>             
+              <strong>Location:</strong> Karjat<br>
               <strong>To Learn:</strong> Drip and Sprinkle Irrigation <br>
               -Waste Decomposer Manufacturing <br>
               -Fruits Orchids and Vegetables Farming <br>
               -Various Agricultural Machineries etc. <br>
             </p>
-          </div>          
+          </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- YEAR 2018 -->
-    <section class="year-2018">
+    <!-- <section class="year-2018">
       <div class="row title-pad">
         <div class="title-div">
           <h2 class="title-common title-even title-rest">2018</h2>
@@ -456,7 +466,7 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
             <p class="event-title"><b>◆ Interview of Our President-Hetal Gala</b></p>
-            <p class="event-info"> 
+            <p class="event-info">
               <strong>Event:</strong> Media Interview<br>
               <strong>Topic:</strong> PLASTIC BAN<br>
               <strong>Date:</strong> 19th March <br>
@@ -476,68 +486,63 @@
               <strong>Conducted by:</strong> Hetal Gala and Anuja Gupte <br>
               <strong>Co-ordinated by:</strong> Pragati Jadhav <br>
             </p>
-          </div>          
+          </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <footer>
       <a href="#top" id="rollUp" class="init btn btn-primary"><i class="fa fa-chevron-up"></i></a>
-  </footer>
+    </footer>
 
     <!-- </footer> -->
     <footer id="contact" class="py-4 mb-0">
       <div class="section-title">
-          <h1>Contact Us</h1>
-          <em>Ways to Reach Us</em>
+        <h1>Contact Us</h1>
+        <em>Ways to Reach Us</em>
       </div>
       <div class="container text-center">
-          <div class="row">
-              <div class="col-sm-6 my-2">
-                  <h4>Get in Touch</h4>
-                  <i class="bi bi-envelope"></i>
-                  Email: 
-                  <a href=""> antiplastic.brigade@gmail.com</a>
-                  <br>
-                  <i class="bi bi-phone"></i>
-                  Phone: +91 9870083455 
-                  <br>
-                  <div class="social-links my-2">
-                      <a href="https://twitter.com/apbthane"><i class="bi bi-twitter"></i></a>
-                      <a href="https://www.instagram.com/antiplasticbrigade2018/"><i class="bi bi-instagram"></i></a>
-                      <a href="https://www.facebook.com/groups/550907531994117/"><i class="bi bi-facebook"></i></a>
-                  </div>
-              </div>
-              <div class="col-sm-6 my-2">
-                  <h4>Location</h4>
-                  <div class="d-flex justify-content-center">
-                      <i class="bi bi-geo-alt"></i>
-                      <address>Thane</address>
-                  </div>
-              </div>
+        <div class="row">
+          <div class="col-sm-6 my-2">
+            <h4>Get in Touch</h4>
+            <i class="bi bi-envelope"></i>
+            Email:
+            <a href=""> antiplastic.brigade@gmail.com</a>
+            <br>
+            <i class="bi bi-phone"></i>
+            Phone: +91 9870083455
+            <br>
+            <div class="social-links my-2">
+              <a href="https://twitter.com/apbthane"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.instagram.com/antiplasticbrigade2018/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/groups/550907531994117/"><i class="bi bi-facebook"></i></a>
+            </div>
           </div>
-          <div class="row">
-              <a href="#">© 2021, Anti Plastic Brigade Charitable Trust</a>
-              <a href="https://sevatech.dbit.in/">Designed by DBIT Sevatech</a>
+          <div class="col-sm-6 my-2">
+            <h4>Location</h4>
+            <div class="d-flex justify-content-center">
+              <i class="bi bi-geo-alt"></i>
+              <address>Thane</address>
+            </div>
           </div>
+        </div>
+        <div class="row">
+          <a href="#">© 2021, Anti Plastic Brigade Charitable Trust</a>
+          <a href="https://sevatech.dbit.in/">Designed by DBIT Sevatech</a>
+        </div>
       </div>
-  </footer>
+    </footer>
 
     <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>
     <!-- SmoothScroll -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Waypoints -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
-        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
     <!-- Counter-Up -->
     <script src="./vendors/Counter-Up/jquery.counterup.min.js"></script>
     <!-- Owl Carousel -->
@@ -548,4 +553,5 @@
     <script src="./js/owl-carousel.js"></script>
 
   </body>
+
 </html>

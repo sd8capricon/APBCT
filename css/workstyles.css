@@ -6,6 +6,12 @@ img{
   margin: auto;
 }
 
+/* Nav-Pills */
+.nav-pills{
+  padding-top: 10vh;
+  
+}
+
 /* Year Title */
 .title-pad{
   padding-right: 0;
@@ -61,6 +67,7 @@ img{
   bottom: 0;
   left: calc(50% - 20px);
 } */
+
 /* Content Section*/
 .content-common{
   padding: 10% inherit;
