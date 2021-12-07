@@ -195,7 +195,7 @@ nav {
   transition: all 0.35s;
 }
 .abt-img-wrapper:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
 }
 .about-img-wrapper-vertical {
   max-width: 35%;
