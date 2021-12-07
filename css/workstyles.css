@@ -11,6 +11,7 @@ img{
   background-color: #f0f4fb;
   padding-top: 15vh;
   position: inherit;
+  width:inherit;
 }
 .nav{
   background-color: #f0f4fb;
@@ -21,43 +22,39 @@ img{
 .nav-link.active{
   background-color: #f0f4fb;
 }
+
 /* Year Title */
 .title-pad{
   padding-right: 0;
   margin-right: 0;
 }
-.title-div-first{
-  padding-top: 3vh;
-  padding-right: 0;
-}
 .title-div{
-  padding-right: 0;
+  padding-right: 0;  
 }
-.title-first{
-  padding: 50px ;
-}
-.title-rest{
-  padding: 14.579px;
-}
-.title-common{
-  font-weight: bolder;
+.title-div-primary {
   text-align: center;
+  padding-bottom: 10px;
+}
+.title-div-primary h1{
   font-family: "Open Sans", sans-serif;
-  padding-bottom: 2.2vh;
-  font-size: 3.1rem;
-  margin-bottom: 0;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
 }
-.title-primary{
-  color: #212529;
-  background-color: #f0f4fb;
+.title-div-primary h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: rgb(165, 165, 165);
+  bottom: 1px;
+  left: calc(50% - 60px);
 }
-.title-secondary{
-  color: #f0f4fb;
-  background-color: #aecc81;
-}
-
-
-/* .title-div-odd h2::after {
+.title-div-primary h1::after {
   content: "";
   position: absolute;
   display: block;
@@ -68,16 +65,45 @@ img{
   left: calc(50% - 20px);
 }
 
-.title-div-even h2::after {
+.title-div-secondary {
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+.title-div-secondary h1{
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  background-color: #aecc81;
+}
+.title-div-secondary h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: rgb(54, 54, 54);
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.title-div-secondary h1::after {
   content: "";
   position: absolute;
   display: block;
   width: 40px;
   height: 3px;
-  background: #6B93D6;
+  background: var(--secondary-color);
   bottom: 0;
   left: calc(50% - 20px);
-} */
+}
+.title-div-first{
+  padding-top: 3vh;
+  padding-right: 0;
+}
 
 /* Content Section*/
 .content-common{
