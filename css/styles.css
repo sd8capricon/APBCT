@@ -324,7 +324,7 @@ nav {
   background-color: var(--bg-1);
 }
 .work-info {
-  color: #545454;
+  color: #212529;
 }
 .button--link {
   letter-spacing: 1px;
@@ -418,6 +418,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-sevatech-logo {
+  width: 150px;
+  height: 20px;
 }
 
 /* Media */
