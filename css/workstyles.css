@@ -150,9 +150,9 @@ h5{
   font-size: 15px;
 }
 .footer-sevatech-logo {
-  width: 150px;
-  height: 20px;
+  width: 180px;
 }
+
 /* Media Query for Desktop Web*/
 @media (min-width: 767px) {
   .carousel-work{
