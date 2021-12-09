@@ -68,15 +68,17 @@ img{
 .title-div-secondary {
   text-align: center;
   font-weight: bolder;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color:#aecc81;
 }
 .title-div-secondary h1{
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
   padding-bottom: 20px;
+  margin-bottom: 20px;
   position: relative;
   background-color: #aecc81;
 }
@@ -101,7 +103,7 @@ img{
   left: calc(50% - 20px);
 }
 .title-div-first{
-  padding-top: 3vh;
+  padding-top: 4vh;
   padding-right: 0;
 }
 
