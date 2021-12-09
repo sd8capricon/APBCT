@@ -1,5 +1,4 @@
 /* Our Initiative Page*/
-
 img{
   width:456px;
   height: 280px;
@@ -13,14 +12,8 @@ img{
   position: inherit;
   width:inherit;
 }
-.nav{
-  background-color: #f0f4fb;
-}
 .nav-link{
   color: #6b93d6
-}
-.nav-link.active{
-  background-color: #f0f4fb;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #f0f4fb;
@@ -28,12 +21,7 @@ img{
   border-color: #6b93d6 #6b93d6 #5cb874;
 }
 .nav-tabs .nav-link {
-  margin-bottom: -1px;
-  background: 0 0;
-  border: 1px solid transparent;
   border-bottom: 3px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
 }
 
 /* Year Title */
@@ -53,8 +41,8 @@ img{
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 12px;
+  padding-bottom: 17px;
   position: relative;
 }
 .title-div-primary h1::before {
@@ -77,12 +65,11 @@ img{
   bottom: 0;
   left: calc(50% - 20px);
 }
-
 .title-div-secondary {
   text-align: center;
   font-weight: bolder;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
   background-color:#aecc81;
 }
 .title-div-secondary h1{
@@ -90,8 +77,8 @@ img{
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 17px;
+  margin-bottom: 12px;
   position: relative;
   background-color: #aecc81;
 }
@@ -116,7 +103,7 @@ img{
   left: calc(50% - 20px);
 }
 .title-div-first{
-  padding-top: 4vh;
+  padding-top: 5.5vh;
   padding-right: 0;
 }
 
@@ -135,7 +122,6 @@ img{
 .content-secondary{
   background-color:#aecc81;
 }
-
 
 /* Event */
 .event-div{
