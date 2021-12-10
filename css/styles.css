@@ -392,12 +392,6 @@ nav {
   font-size: 18px;
   margin: 0 2px;
 }
-
-/* Contact */
-#contact {
-  background-color: var(--bg-1) ;
-}
-
 .social-links a {
   margin: 10px;
 }
@@ -425,10 +419,10 @@ nav {
 .footer-sevatech-logo {
   width: 180px;
 }
-
 #contact{
-  position: relative;
+  background-color: #ffffff;
 }
+
 /* Media */
 
 @media only screen and (max-width: 767px) {
