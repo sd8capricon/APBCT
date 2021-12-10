@@ -30,7 +30,8 @@ img{
   margin-right: 0;
 }
 .title-div{
-  padding-right: 0;  
+  padding-right: 0; 
+  padding-top: 20px; 
 }
 .title-div-primary {
   text-align: center;
@@ -69,7 +70,6 @@ img{
   text-align: center;
   font-weight: bolder;
   padding-bottom: 10px;
-  padding-top: 20px;
   background-color:#aecc81;
 }
 .title-div-secondary h1{
