@@ -391,11 +391,11 @@ nav {
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
-} 
+}
 
 /* Contact */
 #contact {
-  background-color: white;
+  background-color: var(--bg-1) ;
 }
 
 .social-links a {
@@ -426,6 +426,9 @@ nav {
   width: 180px;
 }
 
+#contact{
+  position: relative;
+}
 /* Media */
 
 @media only screen and (max-width: 767px) {
