@@ -1,10 +1,3 @@
-/* Our Initiative Page*/
-img{
-  width:456px;
-  height: 280px;
-  margin: auto;
-}
-
 /* Nav-Tab */
 .nav-year{
   background-color: #f0f4fb;
@@ -155,7 +148,10 @@ img{
 .carousel-inner{
   height: 280px;
 }
-.d-block{
+.carousel-img{
+  width:456px;
+  height: 280px;
+  margin: auto;
   border-radius: 10px;
 }
 .carousel-control-prev-icon {
@@ -169,7 +165,6 @@ img{
   left:0 ;
 }
 h5{
-  text-decoration: overline;
   text-shadow: 0 0 15px #000000, 0 0 15px black, 0 0 15px black;
 }
 
