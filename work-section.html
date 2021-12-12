@@ -17,7 +17,7 @@
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
@@ -37,368 +37,965 @@
   <body>
     <nav class="shadow-lg">
       <div class="brand">
-          <a href="index.html">
-              <img src="./content/logo.png" alt="" srcset="">
-          </a>
+        <a href="index.html">
+          <img src="./content/logo.png" alt="" srcset="">
+        </a>
       </div>
       <div class="hamburger">
-          <i class="fas fa-bars fa-nav fa-active"></i>
-          <i class="fas fa-times fa-nav"></i>
+        <i class="fas fa-bars fa-nav fa-active"></i>
+        <i class="fas fa-times fa-nav"></i>
       </div>
       <div class="menu" id="nav-menu">
-          <a href="index.html">HOME</a>
-          <a href="index.html#about">ABOUT US</a>
-          <a href="work-section.html">OUR INITIATIVES</a>
-          <a href="index.html#team">TEAM</a>
-          <a href="#contact">CONTACT US</a>
+        <a href="index.html">HOME</a>
+        <a href="index.html#about">ABOUT US</a>
+        <a href="work-section.html">OUR INITIATIVES</a>
+        <a href="index.html#team">TEAM</a>
+        <a href="#contact">CONTACT US</a>
       </div>
-  </nav>
+    </nav>
 
-
-    <!-- YEAR 2021 -->
-    <section class="year-2021">
-      <div class="row title-pad">
-        <div class="title-div-first ">
-          <h2 class="title-first title-common title-odd">2021</h2>
-        </div>
+    <nav class="nav-year">
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-2021-tab" data-bs-toggle="tab" data-bs-target="#nav-2021" type="button"
+          role="tab" aria-controls="nav-2021" aria-selected="true">2021</button>
+        <button class="nav-link" id="nav-2020-tab" data-bs-toggle="tab" data-bs-target="#nav-2020" type="button"
+          role="tab" aria-controls="nav-2020" aria-selected="false">2020</button>
+        <button class="nav-link" id="nav-2019-tab" data-bs-toggle="tab" data-bs-target="#nav-2019" type="button"
+          role="tab" aria-controls="nav-2019" aria-selected="false">2019</button>
+        <button class="nav-link" id="nav-2018-tab" data-bs-toggle="tab" data-bs-target="#nav-2018" type="button"
+          role="tab" aria-controls="nav-2018" aria-selected="false">2018</button>
       </div>
-      <section class="content-common content-odd" id="">
-        <div class="container carousel-work" data-aos="fade-up">
-          <div id="carousel-2021" class="carousel" data-bs-ride="carousel" data-bs-pause="hover" data-bs-interval="7000">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel-2021" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-2021" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-2021" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-2021" role="tabpanel" aria-labelledby="nav-2021-tab">
+
+        <!-- YEAR 2021 -->
+
+        <!-- 2021 Awareness Programs -->
+        <section class="year-2021-awarenessPrograms">
+          <div class="row title-pad">
+            <div class="title-div-first title-div-primary">
+              <h1 class="">Awareness Programs</h1>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item  active item">
-                <img src="./content/work/2021img1.jpg" class="d-block" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h5>Awareness Program</h5>
-                </div>
-              </div>
-              <div class="carousel-item  item">
-                <img src="./content/work/2021img2.jpg" class="d-block" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h5>Certificate of Appreciation</h5>
-                </div>
-              </div>
-              <div class="carousel-item item">
-                <img src="./content/work/2021img3.jpg" class="d-block" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h5>Green Study Tour</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2021" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-2021" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+
           </div>
-      </div>
+          <section class="content-common content-primary" id="">
+            <div class="container carousel-work" data-aos="fade-up">
+              <div id="carousel-2021-awarenessPrograms" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+                data-bs-interval="8000">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-2021-awarenessPrograms" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-2021-awarenessPrograms" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-2021-awarenessPrograms" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item  active item">
+                    <img src="./content/initiatives/2021/awareImg1.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>10th January</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item  item">
+                    <img src="./content/initiatives/2021/awareImg2.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>18th July</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item item">
+                    <img src="./content/initiatives/2021/awareImg3.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>15th August</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2021-awarenessPrograms"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-2021-awarenessPrograms"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
 
-    <div class="container">
-      <div class="row event-div" data-aos="fade-up">
-        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-          <p class="event-title"><b>◆ Online Awareness Program</b></p>
-          <p class="event-info">
-            <strong>Topic:</strong> Plastic, Thermocol & E-Waste Management<br>
-            <strong>Date:</strong> 10th January <br>
-            <strong>Conducted by:</strong> Hetal Gala and Prabha Avinash <br>
-            <strong>Co-ordinated by:</strong> Sujesh Nair & Srikar Baljekar<br>
-            <strong>Location:</strong> Garden Enclave, THANE(W)<br> 
-          </p>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-          <p class="event-title"><b>◆ APBCT Secured 1st position</b></p>
-          <p class="event-info"> 
-            <strong>Event:</strong> MAJHI VASUNDHARA ABHIYAN 2020-21<br>
-            <strong>Date:</strong> 15th June <br>
-            <strong>Description:</strong> APBCT & its Green Brigadiers <br>
-             were appreciated for their tireless efforts <br>
-            in Solid Waste Management & convincing <br>
-            people about importance of RECYCLING <br>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-          <p class="event-title"><b>◆ APBCT's Green Study Tour</b></p>
-          <p class="event-info">
-            <strong>Event:</strong> Green Study Tour to PAPAYA NURSERY<br>
-            <strong>Date:</strong> 7th February<br>
-            <strong>Location:</strong> Papaya Nursery Trimbakeshwar <br>
-            Road, Near Kuber Petroleum, <br>
-            Nashik, Maharashtra.<br> 
-          </p>
-        </div>          
-      </div>
-    </div>
-      </section>
-    </section>
+            <div class="container">
+              <div class="row event-div">
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Online-Plastic Waste Pollution</b></p>
+                  <p class="event-info">
+                    <strong>Topic:</strong> Plastic, Thermocol & E-Waste Management<br>
+                    <strong>Date:</strong> 10th January <br>
+                    <strong>Conducted by:</strong> Hetal Gala and Prabha Avinash <br>
+                    <strong>Co-ordinated by:</strong> Sujesh Nair & Srikar Baljekar<br>
+                    <strong>Location:</strong> Garden Enclave, Thane(W)<br>
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Online-Plastic Waste Pollution</b></p>
+                  <p class="event-info">
+                    <strong>Topic:</strong> Plastic, Thermocol & E-Waste Management<br>
+                    <strong>Date:</strong> 18th July <br>
+                    <strong>Conducted by APB Member:</strong> Akshay Sakhalkar <br>
+                    <strong>Co-ordinated by:</strong> Ashok Malve<br>
+                    <strong>Location:</strong> Sankalp Nagar, Kalwa (W)<br>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Plastic Waste Pollution</b></p>
+                  <p class="event-info">
+                    <strong>Topic:</strong> Plastic, Thermocol & E-Waste Management<br>
+                    <strong>Date:</strong> 15th August <br>
+                    <strong>Conducted by:</strong> Hetal Gala and Prabha Avinash <br>
+                    <strong>Co-ordinated by:</strong> Akshay Sakhalkar & Aditi Rao<br>
+                    <strong>Location:</strong> Aparna Raj CHS, Kalwa (E)<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
 
-    <!-- YEAR 2020 -->
-    <section class="year-2020">
-      <div class="row title-pad">
-        <div class="title-div">
-          <h2 class="title-common title-even title-rest">2020</h2>
-        </div>
-      </div>
-    </section>    
-    <section class="content-common content-even" id="">
-      <div class="container carousel-work" data-aos="fade-up">
-            <div id="carousel-2020" class="carousel" data-bs-ride="carousel" data-bs-pause="hover" data-bs-interval="7000">
+        <!-- 2021 Waste Collected -->
+        <section class="year-2021-wasteCollected">
+          <div class="row title-pad">
+            <div class="title-div title-div-secondary">
+              <h1 class="">WASTE COLLECTED</h1>
+            </div>
+          </div>
+        </section>
+        <section class="content-common content-secondary" id="">
+          <div class="container carousel-work" data-aos="fade-up">
+            <div id="carousel-2021-wasteCollected" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+              data-bs-interval="8000">
+
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel-2020" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel-2020" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel-2020" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-2021-wasteCollected" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-2021-wasteCollected" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-2021-wasteCollected" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item  active item">
-                  <img src="./content/work/2020img1.jpg" class="d-block" alt="...">
+                  <img src="./content/initiatives/2021/wasteCimg1.jpg" class="d-block carousel-img" alt="...">
                   <div class="carousel-caption d-md-block">
-                    <h5>Awareness Program</h5>
-                  </div>                  
+                    <h5>2nd October</h5>
+                  </div>
                 </div>
                 <div class="carousel-item  item">
-                  <img src="./content/work/2020img2.jpg" class="d-block" alt="...">
+                  <img src="./content/initiatives/2021/wasteCimg2.jpg" class="d-block carousel-img" alt="...">
                   <div class="carousel-caption d-md-block">
-                    <h5>LOCKDOWN DRIVE</h5>
-                  </div>                 
+                    <h5>5th October</h5>
+                  </div>
                 </div>
                 <div class="carousel-item item">
-                  <img src="./content/work/2020img3.jpg" class="d-block" alt="...">
+                  <img src="./content/initiatives/2021/wasteCimg3.jpg" class="d-block carousel-img" alt="...">
                   <div class="carousel-caption d-md-block">
-                    <h5>APBCT's Green Lecture</h5>
+                    <h5>9th October</h5>
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2020" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2021-wasteCollected"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carousel-2020" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-2021-wasteCollected"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-      </div>
+          </div>
 
-      <div class="container">
-        <div class="row event-div" data-aos="fade-up">
-          <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-            <p class="event-title"><b>◆ ABPCT's Awareness Program</b></p>
-            <p class="event-info">
-              <strong>Topic:</strong> Plastic Waste, Thermocol & E-Waste Management<br>
-              <strong>Date:</strong> 26th January <br>
-              <strong>Conducted by:</strong> APBCT Trustee-Vikas Desai <br>
-              <strong>Co-ordinated by:</strong> Namrata Sawant <br>
-              <strong>Location:</strong> Majiwada, THANE(W)<br> 
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-            <p class="event-title"><b>◆ LOCKDOWN DRIVE</b></p>
-            <p class="event-info"> 
-              <strong>Event:</strong> Collection of Dry Waste & Thermocol<br>
-              <strong>Date:</strong> 9th May<br>
-              <strong>Dry Waste:</strong>  7996.770 Kgs<br>
-              <strong>Thermocol:</strong> 510.680 Kgs<br>
-              <strong>Media Coverage by:</strong> Maharashtra Times<br>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-            <p class="event-title"><b>◆ APBCT's Green Lecture </b></p>
-            <p class="event-info">
-              <strong>Event:</strong>  Lecture with PPT presentation<br>
-              <strong>Topic:</strong>  'CLIMBERS & CREEPERS'<br>
-              <strong>Date:</strong> 28th September<br>
-              <strong>Location:</strong> 201, Krupa Chambers, Beside <br>
-              Malhar Cinema, Noupada, THANE(W)<br> 
-            </p>
-          </div>          
-        </div>
-      </div>
-    </section>
-
-    <!-- YEAR 2019 -->
-    <section class="year-2019">
-      <div class="row title-pad">
-        <div class="title-div">
-          <h2 class="title-common title-odd title-rest">2019</h2>
-        </div>
-      </div>
-    </section>
-    <section class="content-common content-odd" id="">
-      <div class="container carousel-work" data-aos="fade-up">
-        <div id="carousel-2019" class="carousel" data-bs-ride="carousel"  data-bs-pause="hover" data-bs-interval="7000">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel-2019" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel-2019" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel-2019" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./content/work/2019img1.jpg" class="d-block" alt="...">
-              <div class="carousel-caption d-md-block">
-                <h5>Plastic Waste Collection</h5>
+          <div class="container">
+            <div class="row event-div">
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ APB-TMC's Dry Waste Collection Drive</b></p>
+                <p class="event-info">
+                  On <b>2nd October 2021</b> , our Green Brigadiers
+                  contributed total <b>1185.470 Kgs</b>. Clean & Dry
+                  Waste in by taking one more step towards
+                  cleanliness in this <b>'स्वच्छता सप्ताह'</b> and the <br> same has been
+                  sent for Recycling under <b> <br> 'सिंगल युज प्लास्टिक मुक्त भारत महाअभियान'</b> <br>
+                </p>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img src="./content/work/2019img2.jpg" class="d-block" alt="...">
-              <div class="carousel-caption  d-md-block">
-                <h5>Awareness Program</h5>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ Special E-Waste Collection Drive</b></p>
+                <p class="event-info">
+                  During 'स्वच्छता सप्ताह' (2-10-2021 to 9-10-2021)
+                  Anti-Plastic Brigade Charitable Trust-Thane, alongwith <b>TMC</b> & its recycling partner
+                  <b>ECORECO</b> on <b>5 October 2021</b> in Thane
+                  contributed total <b>363.200 Kgs</b>. E-Waste Collection sent for Recycling <br>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img src="./content/work/2019img3.jpg" class="d-block" alt="...">
-              <div class="carousel-caption  d-md-block">
-                <h5>Green Study Tour</h5>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ APB-TMC's Dry Waste Collection Drive</b></p>
+                <p class="event-info">
+                  On <b>9th October 2021</b> , our Green Brigadiers contributed
+                  total <b>394 Kgs</b>. of Clean & Dry Waste
+                  by taking one more step towards cleanliness in
+                  this <b>'स्वच्छता सप्ताह'</b> and the same has been sent
+                  for Recycling under <b>'सिंगल युज प्लास्टिक मुक्त भारत महाअभियान'</b> <br>
+                </p>
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2019" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel-2019" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
+        </section>
 
-      <div class="container">
-        <div class="row event-div" data-aos="fade-up">
-          <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-            <p class="event-title"><b>◆ Waste Collected For Recycling</b></p>
-            <p class="event-info">
-              <strong>Event:</strong> Plastic Waste collected for Recycling<br>
-              <strong>Date:</strong> 11th August <br>
-              <strong>Co-ordinated by:</strong> Mr. Pawan Duggirala  <br>
-              <strong>Recycling Partner:</strong> Sampurn(e)arth Environment Solutions <br>
-            </p>
+        <!-- 2021 Green Study Tour -->
+        <section class="year-2021-greenStudyTour">
+          <div class="row title-pad">
+            <div class="title-div title-div-primary">
+              <h1 class="">Green Study Tour</h1>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-            <p class="event-title"><b>◆ Management & Pollution Program</b></p>
-            <p class="event-info"> 
-              <strong>Event:</strong> Awareness Program<br>
-              <strong>Date:</strong> 17th December <br>
-              <strong>Location:</strong> Gaykar Chawl, Thane(W)<br>             
-              <strong>Conducted by:</strong> Hetal Gala and Anuja Gupte <br>
-              <strong>Co-ordinated by:</strong> Chhaya Telange & Bharati Patil <br>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-            <p class="event-title"><b>◆ APBCT's Green Study Tour</b></p>
-            <p class="event-info">
-              <strong>Event:</strong> Green Study Tour to Agarwal Farms<br>
-              <strong>Date:</strong> 3rd February <br>
-              <strong>Location:</strong> Karjat<br>             
-              <strong>To Learn:</strong> Drip and Sprinkle Irrigation <br>
-              -Waste Decomposer Manufacturing <br>
-              -Fruits Orchids and Vegetables Farming <br>
-              -Various Agricultural Machineries etc. <br>
-            </p>
-          </div>          
-        </div>
-      </div>
-    </section>
-
-    <!-- YEAR 2018 -->
-    <section class="year-2018">
-      <div class="row title-pad">
-        <div class="title-div">
-          <h2 class="title-common title-even title-rest">2018</h2>
-        </div>
-      </div>
-    </section>
-    <section class="content-common content-even" id="">
-      <div class="container carousel-work" data-aos="fade-up">
-            <div id="carousel-2018" class="carousel" data-bs-ride="carousel" data-bs-pause="hover" data-bs-interval="7000">
+        </section>
+        <section class="content-common content-primary" id="">
+          <div class="container carousel-work" data-aos="fade-up">
+            <div id="carousel-2021-greenStudyTour" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+              data-bs-interval="8000">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel-2018" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel-2018" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel-2018" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-2021-greenStudyTour" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-2021-greenStudyTour" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-2021-greenStudyTour" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
               </div>
               <div class="carousel-inner">
-                <div class="carousel-item  active">
-                  <img src="./content/work/2018img1.jpeg" class="d-block" alt="...">
-                  <div class="carousel-caption d-block">
-                    <h5>Vrukshavalli Exhibition</h5>
+                <div class="carousel-item  active item">
+                  <img src="./content/initiatives/2021/greenSImg1.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>7th February</h5>
                   </div>
                 </div>
-                <div class="carousel-item ">
-                  <img src="./content/work/2018img2.jpeg" class="d-block" alt="...">
-                  <div class="carousel-caption d-block">
-                    <h5>Media Interview</h5>
+                <div class="carousel-item  item">
+                  <img src="./content/initiatives/2021/greenSImg2.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>20th March</h5>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <img src="./content/work/2018img3.jpeg" class="d-block" alt="...">
-                  <div class="carousel-caption d-block">
-                    <h5>Awareness Program</h5>
+                <div class="carousel-item item">
+                  <img src="./content/initiatives/2021/greenSImg3.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>25th May</h5>
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2018" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2021-greenStudyTour"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carousel-2018" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-2021-greenStudyTour"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
+          </div>
+
+          <div class="container">
+            <div class="row event-div">
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ APBCT's Green Study Tour</b></p>
+                <p class="event-info">
+                  <strong>Event:</strong> Green Study Tour to PAPAYA NURSERY<br>
+                  <strong>Date:</strong> 7th February<br>
+                  <strong>Location:</strong> Papaya Nursery Trimbakeshwar <br>
+                  Road, Near Kuber Petroleum, <br>
+                  Nashik, Maharashtra<br>
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ APBCT's Lecture </b></p>
+                <p class="event-info">
+                  <strong>Topic:</strong> know-how regarding community & household composting<br>
+                  <strong>Date:</strong> 20th March<br>
+                  <strong>Location:</strong> Vikas Complex, Castle Mill, Thane (W)<br>
+                  <strong>Conducted by:</strong> Anuja Gupte<br>
+                  <strong>Co-ordinated by:</strong> Roshani Mada<br>
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ Our Third Anniversary</b></p>
+                <p class="event-info">
+                  Anti-Plastic Brigade Charitable Trust-Thane turned <b>3</b> on <b>25th May</b> 2021 !!
+                  On this delightful occasion <b>47 Green Brigadiers</b> <b>23 Green Learners</b> and of
+                  'Anti-Plastic Brigade Charitable Trust' were awarded with <b>E-Certificates</b>
+                  in an online ceremony.<br>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
 
-      <div class="container">
-        <div class="row event-div" data-aos="fade-up">
-          <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-            <p class="event-title"><b>◆ VRUKSHAVALLI EXHIBITION-2018</b></p>
-            <p class="event-info">
-              <strong>Event:</strong> APBCT won 3rd prize<br>
-              <strong>Category:</strong> Miniature Landscape Competition<br>
-              <strong>Theme:</strong> Solid Waste Management<br>
-              <strong>Location:</strong> Raymond Ground, THANE(W)<br>
-            </p>
+      <div class="tab-pane fade" id="nav-2020" role="tabpanel" aria-labelledby="nav-2020-tab">
+
+        <!-- YEAR 2020 -->
+
+        <!-- 2020 Awareness Programs -->
+        <section class="year-2020-awarenessPrograms">
+          <div class="row title-pad">
+            <div class="title-div-first title-div-primary">
+              <h1 class="">Awareness Programs</h1>
+            </div>
+
           </div>
-          <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-            <p class="event-title"><b>◆ Interview of Our President-Hetal Gala</b></p>
-            <p class="event-info"> 
-              <strong>Event:</strong> Media Interview<br>
-              <strong>Topic:</strong> PLASTIC BAN<br>
-              <strong>Date:</strong> 19th March <br>
-              <strong>Channel:</strong> ABP MAJHA <br>
-              <a href="https://www.youtube.com/watch?v=t4rdPmqsaE0" class="button--link">
-                Video Here
-                <i class="fa fa-long-arrow-alt-right" aria-hidden="true">
-                </i>
-            </a>
+          <section class="content-common content-primary" id="">
+            <div class="container carousel-work" data-aos="fade-up">
+              <div id="carousel-2020-awarenessPrograms" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+                data-bs-interval="8000">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-2020-awarenessPrograms" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-2020-awarenessPrograms" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-2020-awarenessPrograms" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item  active item">
+                    <img src="./content/initiatives/2020/awareImg1.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>26th January</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item  item">
+                    <img src="./content/initiatives/2020/awareImg2.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>14th March</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item item">
+                    <img src="./content/initiatives/2020/awareImg3.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>7th December</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2020-awarenessPrograms"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-2020-awarenessPrograms"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row event-div">
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Plastic Waste Pollution</b></p>
+                  <p class="event-info">
+                    <strong>Topic:</strong> Plastic Waste, Thermocol & E-Waste Management<br>
+                    <strong>Date:</strong> 26th January <br>
+                    <strong>Conducted by:</strong> APBCT Trustee-Vikas Desai <br>
+                    <strong>Co-ordinated by:</strong> Namrata Sawant <br>
+                    <strong>Location:</strong> Majiwada, Thane(W)<br>
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ SWM & Plastic Waste Pollution</b></p>
+                  <p class="event-info">
+                    <strong>Topic:</strong> Solid Waste Management<br>
+                    <strong>Date:</strong> 14th March <br>
+                    <strong>Conducted by:</strong> Hetal Gala & Anuja Gupte <br>
+                    <strong>Co-ordinated by:</strong> Mr. Anantharaman Iyer <br>
+                    <strong>Location:</strong> Hyde Park Imperia F1 CHSL; Tulsidham, Manpada, Thane(W)<br>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Solid Waste Management</b></p>
+                  <p class="event-info">
+                    APBCT arranged SWM Awareness Programs in area of <b>Thane Mahanagarpalika</b>
+                    regarding segregation of waste, in its member societies under
+                    <b>'Mazi Vasundhara Abhiyan'</b> where members took pledge
+                    <b>'Ek Harit Kruti Shapath'</b> during <b>7-12-2020</b> to <b>15-12-2020</b> <br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- 2020 Waste Collected -->
+        <section class="year-2020-wasteCollected">
+          <div class="row title-pad">
+            <div class="title-div title-div-secondary">
+              <h1 class="">WASTE COLLECTED</h1>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper">
-            <p class="event-title"><b>◆ Plastic Waste Pollution Awareness</b></p>
-            <p class="event-info">
-              <strong>Event:</strong> Awareness Program <br>
-              <strong>Topic:</strong> Beat Plastic Pollution<br>
-              <strong>Date:</strong> 5th June <br>
-              <strong>Conducted by:</strong> Hetal Gala and Anuja Gupte <br>
-              <strong>Co-ordinated by:</strong> Pragati Jadhav <br>
-            </p>
-          </div>          
-        </div>
+        </section>
+        <section class="content-common content-secondary" id="">
+          <div class="container carousel-work" data-aos="fade-up">
+            <div id="carousel-2020-wasteCollected" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+              data-bs-interval="8000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-2020-wasteCollected" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-2020-wasteCollected" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-2020-wasteCollected" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item  active item">
+                  <img src="./content/initiatives/2020/wasteCimg1.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>2020</h5>
+                  </div>
+                </div>
+                <div class="carousel-item  item">
+                  <img src="./content/initiatives/2020/wasteCimg2.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>9th May</h5>
+                  </div>
+                </div>
+                <div class="carousel-item item">
+                  <img src="./content/initiatives/2020/wasteCimg3.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>30th September</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2020-wasteCollected"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-2020-wasteCollected"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row event-div">
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ Waste Collection Drive</b></p>
+                <p class="event-info">
+                  Citizens of Thane enthusiastically participated in <b>'Clean & Dry Waste, Thermocol & E-Waste
+                    Collection Drives'</b>
+                  - a joint initiative of our organization <b>APBCT-Thane</b> and <b>Thane Municipal Corporation</b>
+                  under <b>'Single Use Plastic Mukt Bharat Maha Abhiyan'</b> <br>
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ LOCKDOWN DRIVE</b></p>
+                <p class="event-info">
+                  From <b>2-10-2019</b> to <b>9-5-2020</b>, <b>7996.770 Kgs</b> of Dry Waste & <b>510.680 Kgs</b> of
+                  Thermocol,
+                  was collected and sent for RECYCLING, under &nbsp; <b>'Single Use Plastic Mukta Bharat Maha
+                    Abhiyan'</b>
+                  of APBCT & TMC. Note of our work taken by; <b>'MAHARASHTRA TIMES'</b> <br>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ Waste Collection Drive</b></p>
+                <p class="event-info">
+                  APBCT's good work applauded by <b>Lokmat Times</b>. Waste Collection Drives
+                  with TMC from <b>100+ societies</b> by APBCT under <b>'Single Use Plastic Mukta Bharat Maha
+                    Abhiyan'</b> from <br>
+                  <b>1-10-2019</b> to <b>30-9-2020</b> with huge collection of <b>14,134.490 Kgs</b> of Dry Waste<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2020 Green Study Tour -->
+        <section class="year-2020-greenStudyTour">
+          <div class="row title-pad">
+            <div class="title-div title-div-primary">
+              <h1 class="">Green Study Tour</h1>
+            </div>
+          </div>
+        </section>
+        <section class="content-common content-primary" id="">
+          <div class="container carousel-work" data-aos="fade-up">
+            <div id="carousel-2020-greenStudyTour" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+              data-bs-interval="8000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-2020-greenStudyTour" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-2020-greenStudyTour" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-2020-greenStudyTour" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item  active item">
+                  <img src="./content/initiatives/2020/greenSImg1.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>2nd February</h5>
+                  </div>
+                </div>
+                <div class="carousel-item  item">
+                  <img src="./content/initiatives/2020/greenSImg2.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>8th March</h5>
+                  </div>
+                </div>
+                <div class="carousel-item item">
+                  <img src="./content/initiatives/2020/greenSImg3.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>28th November</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2020-greenStudyTour"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-2020-greenStudyTour"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row event-div">
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ APBCT's Green Study Tour</b></p>
+                <p class="event-info">
+                  APB's Green Study Tour on <b>2nd February</b>, 2020 to
+                  <b>P. L. Deshpande Maitri Udyan</b>-Phase 1,
+                  (<b>Pune Okayama Japanese Garden</b>) Dattawadi, Sinhagad Road, Pune-411 030.
+                  and <b>Enchanted Gardens Nursery</b> , (<b>Tukai Exotica</b>)
+                  Village Punewale, Dehu Road, Pune-411033 <br>
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ Nature Trail </b></p>
+                <p class="event-info">
+                  <strong>Event:</strong> Nature Trail of APB's Green Learners' and APB Members'<br>
+                  <strong>Date:</strong> 8th March<br>
+                  <strong>Time:</strong> 9 to 11 a.m.<br>
+                  <strong>Location:</strong> Dattaji Salvi Udyan, Near Kopari Bridge, Thane (E)-400 603<br>
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ APB's Green Learning</b></p>
+                <p class="event-info">
+                  <strong>Event:</strong> APB's Green Learning Lecture alongwith Demo on 'Bonsai'<br>
+                  <strong>Date:</strong> 28th November<br>
+                  <strong>Time:</strong> 4.30 - 6.30 p.m.<br>
+                  <strong>Location:</strong> Garden of Vrundavan Society, <br> Thane (W)<br>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
 
-    <footer>
-      <a href="#top" id="rollUp" class="init btn btn-primary"><i class="fa fa-chevron-up"></i></a>
-  </footer>
+      <div class="tab-pane fade" id="nav-2019" role="tabpanel" aria-labelledby="nav-2019-tab">
 
-    <!-- </footer> -->
+        <!-- YEAR-2019 -->
+
+        <!-- 2019 Awareness Programs -->
+        <section class="year-2019-awarenessPrograms">
+          <div class="row title-pad">
+            <div class="title-div-first title-div-primary">
+              <h1 class="">Awareness Programs</h1>
+            </div>
+          </div>
+          <section class="content-common content-primary" id="">
+            <div class="container carousel-work" data-aos="fade-up">
+              <div id="carousel-2019-awarenessPrograms" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+                data-bs-interval="8000">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-2019-awarenessPrograms" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-2019-awarenessPrograms" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-2019-awarenessPrograms" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item  active item">
+                    <img src="./content/initiatives/2019/awareImg1.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>30th September</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item  item">
+                    <img src="./content/initiatives/2019/awareImg2.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>6th October</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item item">
+                    <img src="./content/initiatives/2019/awareImg3.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>17th December</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2019-awarenessPrograms"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-2019-awarenessPrograms"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row event-div">
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Plastic Waste Pollution Awareness</b></p>
+                  <p class="event-info">
+                    Plastic Waste Pollution Awareness Program, on <b>30th September</b> , between 3 to 4 p.m. conducted
+                    by <b>Hetal Gala</b> and <b>Anuja Gupte</b>
+                    of APBCT-THANE, along with <b>MAGICBUS</b> NGO for <b>Mondelez International</b> in slum area of LD
+                    ground, Kaula Bundar, Reay Road(E)<br>
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Management & Pollution Program</b></p>
+                  <p class="event-info">
+                    <strong>Event:</strong> Awareness Program<br>
+                    <strong>Date:</strong> 6th October<br>
+                    <strong>Conducted by:</strong> Hetal Gala and Vikas Desai <br>
+                    <strong>Co-ordinated by:</strong> Ravindra Kajrolkar<br>
+                    <strong>Location:</strong> SRA Project in Gavanipada, Sarvodaya Nagar, Mulund(W)<br>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ SWM & Plastic Waste Pollution</b></p>
+                  <p class="event-info">
+                    <strong>Event:</strong> Awareness Program<br>
+                    <strong>Date:</strong> 17th December <br>
+                    <strong>Conducted by:</strong> Hetal Gala and Anuja Gupte <br>
+                    <strong>Co-ordinated by:</strong> Chhaya Telange & Bharati Patil <br>
+                    <strong>Location:</strong> Gaykar Chawl, Chandan Wadi, Panchpakhadi, Thane(W)<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- 2019 Waste Collected -->
+        <section class="year-2021-wasteCollected">
+          <div class="row title-pad">
+            <div class="title-div title-div-secondary">
+              <h1 class="">WASTE COLLECTED</h1>
+            </div>
+          </div>
+        </section>
+        <section class="content-common content-secondary" id="">
+          <div class="container carousel-work" data-aos="fade-up">
+            <div id="carousel-2019-wasteCollected" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+              data-bs-interval="8000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-2019-wasteCollected" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-2019-wasteCollected" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-2019-wasteCollected" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item  active item">
+                  <img src="./content/initiatives/2019/wasteCimg1.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>14th April</h5>
+                  </div>
+                </div>
+                <div class="carousel-item  item">
+                  <img src="./content/initiatives/2019/wasteCimg2.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>11th August</h5>
+                  </div>
+                </div>
+                <div class="carousel-item item">
+                  <img src="./content/initiatives/2019/wasteCimg3.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>20th & 21st December</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2019-wasteCollected"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-2019-wasteCollected"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row event-div">
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ Waste Collected For Recycling</b></p>
+                <p class="event-info">
+                  <b>Pilot Project</b> - <b>42 Kgs</b> Clean & Dry Plastic Waste collected and sent for Recycling, on
+                  <b>14th April</b> , 2019, to
+                  <b>Sampurn (E)arth Environment Solutions Pvt. Ltd.</b> Chembur, Mumbai - 400 071, the <b>Govt.
+                    authorised</b> & CPCB approved Recycler Company<br>
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ Waste Collection Drive</b></p>
+                <p class="event-info">
+                  <b>120 Kgs</b> Clean & Dry Plastic Waste collected and sent for RECYCLING, on <b>11th August</b> ,
+                  2019, to:
+                  <b>Sampurn (E)arth Environment Solutions Pvt. Ltd.</b> Chembur, Mumbai - 400 071, the <b>Govt.
+                    authorised & CPCB</b> approved Recycler Company<br>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ Waste Collected For Recycling</b></p>
+                <p class="event-info">
+                  <b>239 Kgs</b> Clean & Dry Waste, generated in Annual event of <b>KELKAR COLLEGE of Arts, Science &
+                    Commerce</b> at Mulund (East),
+                  on <b>20th & 21st December</b> sent for Recycling to CPCB authorised Recycler Company, <b>Sampurn
+                    (E)arth Environment Solutions Pvt. Ltd.</b> Chembur<br>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- 2019 Green Study Tour -->
+        <section class="year-2019-greenStudyTour">
+          <div class="row title-pad">
+            <div class="title-div title-div-primary">
+              <h1 class="">Green Study Tour</h1>
+            </div>
+          </div>
+        </section>
+        <section class="content-common content-primary" id="">
+          <div class="container carousel-work" data-aos="fade-up">
+            <div id="carousel-2019-greenStudyTour" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+              data-bs-interval="8000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-2019-greenStudyTour" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-2019-greenStudyTour" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-2019-greenStudyTour" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item  active item">
+                  <img src="./content/initiatives/2019/greenSImg1.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>3rd February</h5>
+                  </div>
+                </div>
+                <div class="carousel-item  item">
+                  <img src="./content/initiatives/2019/greenSImg2.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>28th September</h5>
+                  </div>
+                </div>
+                <div class="carousel-item item">
+                  <img src="./content/initiatives/2019/greenSImg3.jpg" class="d-block carousel-img" alt="...">
+                  <div class="carousel-caption d-md-block">
+                    <h5>23rd November</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2019-greenStudyTour"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-2019-greenStudyTour"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row event-div">
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ APBCT's Green Study Tour</b></p>
+                <p class="event-info">
+                  <strong>Event:</strong> Green Study Tour to Agarwal Farms<br>
+                  <strong>Date:</strong> 3rd February <br>
+                  <strong>Location:</strong> Karjat<br>
+                  <strong>To Learn:</strong> Drip and Sprinkle Irrigation <br>
+                  -Waste Decomposer Manufacturing <br>
+                  -Various Agricultural Machineries etc<br>
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ APBCT's Green Lecture</b></p>
+                <p class="event-info">
+                  <strong>Event:</strong> Lecture with PPT presentation<br>
+                  <strong>Topic:</strong> CLIMBERS & CREEPERS<br>
+                  <strong>Date:</strong> 28th September<br>
+                  <strong>Location:</strong> 201, Krupa Chambers, Beside <br>
+                  Malhar Cinema, Noupada, THANE(W)<br>
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                data-aos="fade-up">
+                <p class="event-title"><b>◆ APBCT's Green Lecture</b></p>
+                <p class="event-info">
+                  APB's Green Lecture alongwith Demo on <b>'TERRARIUM'</b> (BOTTLE GARDEN) On <b>23rd November</b> ,
+                  2019, between 4.30 - 6.30 p.m. at:
+                  Terrace of Chaubal House, Near St. John Baptist High School, Dr. Maltibai Chitnis Chowk, Veer Savarkar
+                  Path, Thane(West)-400 601<br>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="tab-pane fade" id="nav-2018" role="tabpanel" aria-labelledby="nav-2018-tab">
+
+        <!-- YEAR 2018 -->
+        <!-- 2018 Awareness Programs -->
+        <section class="year-2018-awarenessPrograms">
+          <div class="row title-pad">
+            <div class="title-div-first title-div-primary">
+              <h1 class="">Awareness Programs</h1>
+            </div>
+          </div>
+          <section class="content-common content-primary" id="">
+            <div class="container carousel-work" data-aos="fade-up">
+              <div id="carousel-2018-awarenessPrograms" class="carousel" data-bs-ride="carousel" data-bs-pause="hover"
+                data-bs-interval="8000">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-2018-awarenessPrograms" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-2018-awarenessPrograms" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-2018-awarenessPrograms" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item  active item">
+                    <img src="./content/initiatives/2018/awareImg1.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>25th February</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item  item">
+                    <img src="./content/initiatives/2018/awareImg2.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>9th March</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item item">
+                    <img src="./content/initiatives/2018/awareImg3.jpg" class="d-block carousel-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>5th June</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2018-awarenessPrograms"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-2018-awarenessPrograms"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row event-div">
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Plastic Waste Pollution Awareness</b></p>
+                  <p class="event-info">
+                    On Sunday, <b>25th February</b>, 2018 at <b>Highland Residency</b>,
+                    Dhokali, Thane west, conducted by <b>Hetal Gala</b> and coordinated by <b>Poornima Kagal</b>,
+                    <b>Shamala Chavan</b> and <b>Rajee</b>.
+                    TMC officer <b>Ganesh Repote</b> and supervisor <b>Arun</b> were also present to give guidance<br>
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Management & Pollution Awareness</b></p>
+                  <p class="event-info">
+                    APB Awareness Program on <b>9th March</b>, 2018, <br> at Lodha Paradise' Club House for <b>Reject
+                    Hazardous Waste</b>, @ 7.30 PM. Conducted <br> by <b>Hetal Gala</b>, <b>Anuja Gupte</b>, <b>Shamala Chavan</b> <br> & <b>Ritu
+                    Kamath</b>. Co-ordinated by Trupti <br> <b>Sushant Surve</b> <br>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center about-text-wrapper"
+                  data-aos="fade-up">
+                  <p class="event-title"><b>◆ Plastic Waste Pollution Awareness</b></p>
+                  <p class="event-info">
+                    On <b>World Environment</b> Day <b>5th June</b>, 2018, between 2.30 p.m. to 4 p.m. at Mumbai
+                    Regional Office of <b>HUDCO</b> at: 175, 2nd Floor, Shreyas Chambers, Dr. D. N. Road, Fort, Mumbai - 400001
+                    Conducted by <b>Hetal Gala</b> and <b>Anuja Gupte</b>. Co-ordinated by <b>Pragati Jadhav</b> <br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <!-- <footer> -->
+    <a href="#top" id="rollUp" class="init btn btn-primary"><i class="fa fa-chevron-up"></i></a>
+    <!-- <footer> -->
     <footer id="contact" class="shadow-lg py-4 mb-0">
+
       <div class="section-title">
-          <h1>Contact Us</h1>
-          <em>Ways to Reach Us</em>
+        <h1>Contact Us</h1>
+        <em>Ways to Reach Us</em>
       </div>
       <div class="container text-center">
+
           <div class="row">
               <div class="col-sm-6 my-2">
                   <h4>Get in Touch</h4>
@@ -431,24 +1028,29 @@
                   <img class="footer-sevatech-logo" src="content/sevatech logo.webp" />
               </a>
           </div>
+        </div>
+        <div class="row">
+          <a href="#">© 2021, Anti Plastic Brigade Charitable Trust</a>
+          <a href="https://sevatech.dbit.in/">Designed by DBIT Sevatech</a>
+        </div>
       </div>
-  </footer>
+    </footer>
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-    </script>
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
     <!-- SmoothScroll -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
     <!-- Waypoints -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
-        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Counter-Up -->
     <script src="./vendors/Counter-Up/jquery.counterup.min.js"></script>
     <!-- Owl Carousel -->
@@ -456,7 +1058,7 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
     <!-- Local -->
     <script src="./js/nav.js"></script>
@@ -464,4 +1066,5 @@
     <script src="./js/owl-carousel.js"></script>
 
   </body>
+
 </html>
