@@ -1,11 +1,11 @@
 /* Nav-Tab */
-.nav-year{
+.nav-year {
   background-color: #f0f4fb;
   padding-top: 15vh;
   position: inherit;
   width:inherit;
 }
-.nav-link{
+.nav-link {
   color: #6b93d6
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -18,11 +18,11 @@
 }
 
 /* Year Title */
-.title-pad{
+.title-pad {
   padding-right: 0;
   margin-right: 0;
 }
-.title-div{
+.title-div {
   padding-right: 0; 
   padding-top: 20px; 
 }
@@ -30,7 +30,7 @@
   text-align: center;
   padding-bottom: 10px;
 }
-.title-div-primary h1{
+.title-div-primary h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: bold;
@@ -65,7 +65,7 @@
   padding-bottom: 10px;
   background-color:#aecc81;
 }
-.title-div-secondary h1{
+.title-div-secondary h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: bold;
@@ -95,13 +95,13 @@
   bottom: 0;
   left: calc(50% - 20px);
 }
-.title-div-first{
+.title-div-first {
   padding-top: 5.5vh;
   padding-right: 0;
 }
 
 /* Content Section*/
-.content-common{
+.content-common {
   padding: 10% inherit;
   padding-top: 10px;
   text-align: center;
@@ -109,19 +109,19 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
-.content-primary{
+.content-primary {
   background-color: #f0f4fb;
 }
-.content-secondary{
+.content-secondary {
   background-color:#aecc81;
 }
 
 /* Event */
-.event-div{
+.event-div {
   padding-top: 5.9vh;
   padding-bottom: 6vh;
 }
-.event-title{
+.event-title {
   color: #545454;
   font-weight: bold;
   text-align: left;
@@ -129,13 +129,13 @@
   margin-bottom: 0;
   color: #212529;
 }
-.event-info{
+.event-info {
   color: #545454;
   text-align: left;
   font-size: 16px;
   margin-bottom: 4px;
 }
-.button--link{
+.button--link {
   letter-spacing: 1px;
   font-family: lato,Geneva,Tahoma,sans-serif;
   color: #233f96;
@@ -146,10 +146,10 @@
 } 
 
 /* Carousel */
-.carousel-inner{
+.carousel-inner {
   height: 280px;
 }
-.carousel-img{
+.carousel-img {
   width:456px;
   height: 280px;
   margin: auto;
@@ -165,7 +165,7 @@
   width:100%;
   left:0 ;
 }
-h5{
+h5 {
   text-shadow: 0 0 15px #000000, 0 0 15px black, 0 0 15px black;
 }
 
@@ -188,7 +188,7 @@ h5{
   justify-content: center;
   align-items: center;
 }
-.fa-chevron-up{
+.fa-chevron-up {
   font-size: 15px;
 }
 .footer-sevatech-logo {
@@ -198,7 +198,7 @@ h5{
 
 /* Media Query for Desktop Web*/
 @media (min-width: 767px) {
-  .carousel-work{
+  .carousel-work {
     align-items: center;
     justify-content: center;
     width: 750px;
@@ -208,17 +208,17 @@ h5{
 
 /* Media Query for Mobile Web */
 @media (max-width:500px ){
-  img{
+  img {
     width: 300px;
     height: 183px;
   }
-  .carousel-inner{
+  .carousel-inner {
     height: 183px;
   }
-  .carousel-work{
+  .carousel-work {
     width: 330px;
   }
-  h5{
+  h5 {
     font-size: 1rem;
   }
 }
