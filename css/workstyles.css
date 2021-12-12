@@ -191,6 +191,10 @@ h5{
 .fa-chevron-up{
   font-size: 15px;
 }
+.footer-sevatech-logo {
+  height: auto;
+  width: 180px;
+}
 
 /* Media Query for Desktop Web*/
 @media (min-width: 767px) {
