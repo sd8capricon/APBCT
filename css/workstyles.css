@@ -28,14 +28,13 @@
 }
 .title-div-primary {
   text-align: center;
-  padding-bottom: 10px;
 }
 .title-div-primary h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   padding-bottom: 17px;
   position: relative;
 }
@@ -62,7 +61,6 @@
 .title-div-secondary {
   text-align: center;
   font-weight: bolder;
-  padding-bottom: 10px;
   background-color:#aecc81;
 }
 .title-div-secondary h1 {
@@ -71,7 +69,7 @@
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 17px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   position: relative;
   background-color: #aecc81;
 }
@@ -147,13 +145,15 @@
 
 /* Carousel */
 .carousel-inner {
-  height: 280px;
+  padding-top: 10px;
+  height: 300px;
 }
 .carousel-img {
   width:456px;
   height: 280px;
   margin: auto;
   border-radius: 10px;
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.5);
 }
 .carousel-control-prev-icon {
     background-image: url(https://cdn-icons-png.flaticon.com/512/467/467274.png);
@@ -167,6 +167,7 @@
 }
 h5 {
   text-shadow: 0 0 15px #000000, 0 0 15px black, 0 0 15px black;
+  margin-bottom: 0;
 }
 
 /* Footer */
