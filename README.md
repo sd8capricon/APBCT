@@ -29,7 +29,7 @@ One of the major reason of “Plastic Pollution” is plastic belongs to non-bio
 
 
 ### Screenshots
-<img src="content/readme/home.png" width="100%"  /> 
+<img src="content/readme/home.png" width="50%"  /> 
 <img src="content/readme/intiatives1.png" width="25%"  /> 
 <img src="content/readme/intiatives2.png" width="25%"  /> 
 <img src="content/readme/intiatives3.png" width="25%"  />
